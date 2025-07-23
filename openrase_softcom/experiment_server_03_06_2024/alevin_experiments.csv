@@ -1,0 +1,9 @@
+experiment,acceptance_ratio,execution_time
+SFCs:4-Topology:0.5,100,0.001
+SFCs:8-Topology:0.5,100,0.002
+SFCs:32-Topology:0.5,75,0.005
+SFCs:16-Topology:0.5,100,0.003
+SFCs:4-Topology:1,100,0.001
+SFCs:8-Topology:1,100,0.001
+SFCs:32-Topology:1,100,0.003
+SFCs:16-Topology:1,100,0.002

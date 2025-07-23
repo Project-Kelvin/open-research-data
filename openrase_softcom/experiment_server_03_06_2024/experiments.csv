@@ -1,0 +1,9 @@
+experiment,failed_fgs,accepted_fgs,execution_time,deployment_time
+SFCs:4-Topology:0.5,0,4,0.002023,34.016485
+SFCs:8-Topology:0.5,0,8,0.003961,44.434665
+SFCs:32-Topology:0.5,8,24,0.021387,90.813508
+SFCs:16-Topology:0.5,0,16,0.009647,75.756076
+SFCs:4-Topology:1,0,4,0.001676,28.575000
+SFCs:8-Topology:1,0,8,0.003443,34.392266
+SFCs:32-Topology:1,0,32,0.018268,110.687266
+SFCs:16-Topology:1,0,16,0.007080,55.042784
