@@ -1,0 +1,11 @@
+No. of SFCRs: 32
+Traffic Scale: 1.0
+Traffic Pattern: Pattern A
+Link Bandwidth: 10
+No. of CPUs: 2
+Evolution Time taken: 37115.11
+Experiment Time: 672s
+Acceptance Ratio: 0.1875
+Average Latency(computed): 302.9301620556325
+Fitness score: 0.7
+Average Latency(measured): 29.96297424013979
