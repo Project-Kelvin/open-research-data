@@ -1,0 +1,6 @@
+No. of SFCRs: 32
+Traffic Scale: 2.0
+Traffic Pattern: Pattern B
+Link Bandwidth: 5
+No. of CPUs: 1
+Time taken: 1074.61

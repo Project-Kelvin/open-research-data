@@ -1,0 +1,19 @@
+experiment,evolution,type,time
+Baseline(Hybrid),Hybrid,Offline,786.61
+Baseline(Hybrid),Hybrid,Online,672
+Baseline(Online),Online,Online,63788.07564635598
+Bandwidth(Hybrid),Hybrid,Offline,335.3
+Bandwidth(Hybrid),Hybrid,Online,672
+Bandwidth(Online),Online,Online,62577.926120975986
+SFCRs(Hybrid),Hybrid,Offline,6848.45
+SFCRs(Hybrid),Hybrid,Online,672
+SFCRs(Online),Online,Online,66481.62726873416
+CPU(Hybrid),Hybrid,Offline,451.23
+CPU(Hybrid),Hybrid,Online,672
+CPU(Online),Online,Online,64246.144316849066
+Traffic Scale(Hybrid),Hybrid,Offline,416.94
+Traffic Scale(Hybrid),Hybrid,Online,672
+Traffic Scale(Online),Online,Online,63756.44584052893
+Traffic Pattern(Hybrid),Hybrid,Offline,379.39
+Traffic Pattern(Hybrid),Hybrid,Online,672
+Traffic Pattern(Online),Online,Online,65943.3625021649
