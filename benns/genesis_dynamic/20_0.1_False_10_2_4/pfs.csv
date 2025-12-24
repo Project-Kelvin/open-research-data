@@ -1,0 +1,7 @@
+method, generation, latency, ar
+surrogate, 1, 38.0, 1.0
+surrogate, 1, 37.0, 0.95
+surrogate, 1, 37.0, 0.95
+surrogate, 1, 36.0, 0.9
+surrogate, 1, 34.0, 0.5
+emulator, 1.1, 38.0, 1.0
