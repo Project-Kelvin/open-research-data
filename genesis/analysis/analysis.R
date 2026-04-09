@@ -18,12 +18,12 @@ first_stage <- data %>%
 second_stage <- data %>%
     filter(str_detect(experiment, "^48_"))
 
-first_stage_plt  <- ggplot(first_stage, aes(x = experiment, y = convergence_time, color = algorithm)) +
+first_stage_plt <- ggplot(first_stage, aes(x = experiment, y = convergence_time, color = algorithm)) +
     geom_point(aes(shape = did_converge), size = 3) +
     scale_y_log10() +
     scale_shape_manual(values = c(17, 15), labels = c("Yes", "No")) +
     scale_color_brewer(palette = "Set1") +
-    labs(title="First Stage", x = "Experiment", y = "Execution Time (mins)") +
+    labs(title = "First Stage", x = "Experiment", y = "Execution Time (mins)") +
     theme_light() +
     theme(axis.text.x = element_text(angle = 30, hjust = 1, size = 10), plot.title = element_text(family = "Times New Roman", size = 14), legend.position = "top", axis.text = element_text(family = "Times New Roman", size = 14), legend.text = element_text(family = "Times New Roman", size = 14), legend.title = element_text(family = "Times New Roman", size = 14), axis.title = element_text(family = "Times New Roman", size = 14)) +
     labs(color = "", shape = "Did it converge?")
@@ -46,12 +46,12 @@ conv_plot <-
                 plot.title = element_text(family = "Times New Roman", size = 16),
                 legend.text = element_text(family = "Times New Roman", size = 12),
                 legend.title = element_text(family = "Times New Roman", size = 12),
-                legend.position = "top",        # shift legend to the left
-                legend.justification = c(0, 1),      # anchor legend to the left-top
+                legend.position = "top", # shift legend to the left
+                legend.justification = c(0, 1), # anchor legend to the left-top
                 legend.box = "horizontal"
             )
         ) &
-    guides(color = guide_legend(nrow = 1, byrow = TRUE, order = 1), shape = guide_legend(nrow = 1, byrow = TRUE, order = 2))
+        guides(color = guide_legend(nrow = 1, byrow = TRUE, order = 1), shape = guide_legend(nrow = 1, byrow = TRUE, order = 2))
 
 ggsave("experiments/genesis_experiments/analysis/convergence_time.png", width = 10, height = 8, dpi = 300, plot = conv_plot)
 
@@ -79,22 +79,27 @@ ggsave("experiments/genesis_experiments/analysis/second_stage_best_latency.png",
 converge_first <- first_stage %>%
     group_by(algorithm) %>%
     summarize(
-        Yes = sum(did_converge == "True"),
-        No = sum(did_converge == "False")
+        Yes = sum(did_converge == "True") / n(),
+        No = sum(did_converge == "False") / n()
     ) %>%
-    pivot_longer(cols = c("Yes", "No"), names_to = "Converged", values_to = "Count") %>%
-    mutate(Converged = fct_relevel(Converged, "Yes", "No"))
+    pivot_longer(cols = c("Yes", "No"), names_to = "Converged", values_to = "Fraction") %>%
+    mutate(Converged = fct_relevel(Converged, "Yes", "No")) %>%
+    mutate(ymax = ave(Fraction, algorithm, FUN = cumsum)) %>%
+    mutate(ymin = ave(Fraction, algorithm, FUN = function(x) c(0, head(cumsum(x), n = -1)))) %>%
+    mutate(labelPosition = (ymax + ymin) / 2) %>%
+    mutate(label = ifelse(Converged == "Yes", paste0(round(Fraction * 100, 1), "%"), ""))
 
-fs_pi <- ggplot(converge_first, aes(x = 1.5, y = Count, fill = Converged)) +
-    scale_fill_discrete(type = c("#6fc53a", "#ff4457")) +
-    geom_bar(stat = "identity", width = 1) +
+fs_pi <- ggplot(converge_first, aes(ymax = ymax, ymin = ymin, xmax = 4, xmin = 3, fill = Converged)) +
+    scale_fill_discrete(type = c("#375c63", "#ff9a9b")) +
+    geom_rect() +
+    geom_text(aes(x = 1, y = labelPosition, label = label), size = 4, family = "Times New Roman") +
     coord_polar("y") +
-    xlim(c(0.2, 2)) +
+    xlim(c(1, 4)) +
     facet_wrap(~algorithm) +
     labs(fill = "Did it converge?") +
-    theme_minimal() +
+    theme_void() +
     theme(
-        legend.position = "bottom",
+        legend.position = "none",
         legend.text = element_text(family = "Times New Roman", size = 14),
         legend.title = element_text(family = "Times New Roman", size = 14),
         plot.title = element_blank(),
@@ -104,23 +109,31 @@ fs_pi <- ggplot(converge_first, aes(x = 1.5, y = Count, fill = Converged)) +
     )
 
 converge_second <- second_stage %>%
-    group_by(algorithm) %>%
-    summarize(
-        Yes = sum(did_converge == "True"),
-        No = sum(did_converge == "False")
-    ) %>%
-    pivot_longer(cols = c("Yes", "No"), names_to = "Converged", values_to = "Count")
+     group_by(algorithm) %>%
+         summarize(
+             Yes = sum(did_converge == "True") / n(),
+             No = sum(did_converge == "False") / n()
+         ) %>%
+         pivot_longer(cols = c("Yes", "No"), names_to = "Converged", values_to = "Fraction") %>%
+         mutate(Converged = fct_relevel(Converged, "Yes", "No")) %>%
+         mutate(ymax = ave(Fraction, algorithm, FUN = cumsum)) %>%
+         mutate(ymin = ave(Fraction, algorithm, FUN = function(x) c(0, head(cumsum(x), n = -1)))) %>%
+         mutate(labelPosition = (ymax + ymin) / 2) %>%
+         mutate(label = ifelse(Converged == "Yes", paste0(round(Fraction * 100, 1), "%"), ""))
 
-ss_pi <- ggplot(converge_second, aes(x = 1.5, y = Count, fill = Converged)) +
-    scale_fill_discrete(type = c("#ff4457", "#6fc53a")) +
-    geom_bar(stat = "identity", width = 1) +
+ss_pi <- ggplot(converge_second, aes(ymax = ymax, ymin = ymin, xmax = 4, xmin = 3, fill = Converged)) +
+    scale_fill_discrete(type = c("#375c63", "#ff9a9b")) +
+    geom_rect() +
+    geom_text(aes(x = 1, y = labelPosition, label = label), size = 4, family = "Times New Roman") +
     coord_polar("y") +
-    xlim(c(0.2, 2)) +
+    xlim(c(1, 4)) +
     facet_wrap(~algorithm) +
     labs(fill = "Did it converge?") +
-    theme_minimal() +
+    theme_void() +
     theme(
         legend.position = "none",
+        legend.text = element_text(family = "Times New Roman", size = 14),
+        legend.title = element_text(family = "Times New Roman", size = 14),
         plot.title = element_blank(),
         axis.title = element_blank(),
         axis.text = element_blank(),
@@ -128,13 +141,13 @@ ss_pi <- ggplot(converge_second, aes(x = 1.5, y = Count, fill = Converged)) +
     )
 
 pies <- grid.arrange(
-    arrangeGrob(fs_pi, top = textGrob("First Stage", just = "left", hjust = 1.6, gp = gpar(fontfamily = "Times New Roman", fontsize = 16))),
-    arrangeGrob(ss_pi, top = textGrob("Second Stage", just = "left", hjust = 0.8, gp = gpar(fontfamily = "Times New Roman", fontsize = 16)), heights = c(0.86, 0.14)),
+    arrangeGrob(fs_pi, top = textGrob(label = "First Stage", just = "left", hjust = 1.6, gp = gpar(fontfamily = "Times New Roman", fontsize = 16))),
+    arrangeGrob(ss_pi, top = textGrob(label = "Second Stage", just = "left", hjust = 0.8, gp = gpar(fontfamily = "Times New Roman", fontsize = 16))),
     ncol = 2,
     widths = c(1.45, 1)
 )
 
-ggsave("experiments/genesis_experiments/analysis/pies.png", width = 6, height = 4, dpi = 300, plot = pies)
+ggsave("experiments/genesis_experiments/analysis/pies.png", width = 6, height = 3, dpi = 300, plot = pies)
 
 average <- data %>%
     group_by(algorithm) %>%
@@ -164,3 +177,23 @@ ggplot(data, aes(x = algorithm, y = convergence_time, color = algorithm)) +
     theme(axis.text.x = element_text(size = 12), legend.position = "none", axis.text = element_text(family = "Times New Roman", size = 14), axis.title = element_text(family = "Times New Roman", size = 14))
 
 ggsave("experiments/genesis_experiments/analysis/execution_time.png", width = 6, height = 3, dpi = 300)
+
+genesis_tot_time <- data %>%
+    filter(algorithm == "GENESIS") %>%
+    summarize(total_time = mean(convergence_time, na.rm = TRUE)) %>%
+    pull(total_time)
+
+genesis_first_time <- first_stage %>%
+    filter(algorithm == "GENESIS") %>%
+    summarize(total_time = mean(convergence_time, na.rm = TRUE)) %>%
+    pull(total_time)
+
+genesis_second_time <- second_stage %>%
+    filter(algorithm == "GENESIS") %>%
+    summarize(total_time = mean(convergence_time, na.rm = TRUE)) %>%
+    pull(total_time)
+
+gda_second_time <- second_stage %>%
+    filter(algorithm == "GDA") %>%
+    summarize(total_time = mean(convergence_time, na.rm = TRUE)) %>%
+    pull(total_time)
