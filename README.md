@@ -23,3 +23,9 @@
 | Data Directory     | Description                                                                                          |
 | ------------------ | ---------------------------------------------------------------------------------------------------- |
 | [genesis](genesis) | Data generated during the experiments conducted to evaluate the GENESIS framework for SFC embedding. |
+
+## Energy-Aware Optimal Service Function Chain Embedding in Emulated Multi-Access Edge Computing for Internet of Things
+
+| Data Directory                 | Description                                                                                                        |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| [genesis_power](genesis_power) | Data generated during the experiments conducted to evaluate the energy-aware SFC embedding approach using GENESIS. |

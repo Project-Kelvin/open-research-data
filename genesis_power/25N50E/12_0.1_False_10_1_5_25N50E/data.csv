@@ -1,0 +1,3 @@
+method, generation, average_ar, max_ar, min_ar, average_power, max_power, min_power
+surrogate, 1, 0.8666666666666667, 1.0, 0.5833333333333334, 153.04, 194.0, 83.0
+emulator, 1.1, 1.0, 1.0, 1.0, 148.0, 148.0, 148.0
