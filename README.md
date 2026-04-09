@@ -17,6 +17,7 @@
 | [benns/hybrid](benns/hybrid)                                                   | Data generated during the hybrid 2d-binary encoded evolution experiments using BeNNS as a surrogate model. |
 | [benns/analysis](benns/analysis)                                               | Data generated during the analysis of the online and hybrid evolutions.                                    |
 | [benns/genesis_dynamic](benns/genesis_dynamic)                                 | Data generated during the dynamic GENESIS experiments with BeNNS.                                          |
+| [benns/ablated_models](benns/ablated_models)                                   | Data generated during the ablation studies of the BeNNS surrogate model.                                   |
 
 ## Simultaneous Genetic Evolution of Neural Networks for Optimal SFC Embedding
 

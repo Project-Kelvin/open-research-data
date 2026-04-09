@@ -20,7 +20,7 @@ iqr <- q3 - q1
 # cpu <- cpu %>% filter(latency >= (q1 - 1.5 * iqr) & latency <= (q3 + 1.5 * iqr))
 
 cpu_plot <- ggplot(cpu, aes(x = max_cpu, y = latency)) +
-  geom_point(color="#33658A") +
+  geom_point(color="#375c63") +
   theme_light() +
   scale_y_log10(limits = c(1, 6000), breaks=c(1, 10, 20, 50, 100, 500, 1000, 2000, 6000)) +
   scale_x_continuous(breaks = seq(0, 2.0, by = 0.2)) +
@@ -50,7 +50,7 @@ iqr <- q3 - q1
 # memory <- memory %>% filter(latency >= (q1 - 1.5 * iqr) & latency <= (q3 + 1.5 * iqr))
 
 memoryPlot <- ggplot(memory, aes(x = max_memory, y = latency)) +
-  geom_point(color = "#33658A") +
+  geom_point(color = "#375c63") +
   theme_light() +
   scale_x_continuous(limits=c(1.30, 1.331)) +
   scale_y_log10(limits=c(1, 6000), breaks=c(1, 10, 20, 50, 100, 500, 1000, 2000, 6000)) +
@@ -77,7 +77,7 @@ iqr <- q3 - q1
 #links <- links %>% filter(latency >= (q1 - 1.5 * iqr) & latency <= (q3 + 1.5 * iqr))
 
 linkPlot  <- ggplot(links, aes(x = max_link_score, y = latency)) +
-  geom_point(color = "#33658A") +
+  geom_point(color = "#375c63") +
   theme_light() +
   scale_y_log10(limits=c(1, 6000), breaks=c(1, 10, 20, 50, 100, 500, 1000, 2000, 6000)) +
   theme(text = element_text(size = 14, family = "serif"), axis.text = element_text(size = 14), axis.text.x = element_text(angle=90)) +
