@@ -84,7 +84,7 @@ combined_data <- bind_rows(
     segment_9_data,
     segment_10_data
 )
-latency  <-  ggplot(combined_data, aes(x = generation, y = average_latency)) +
+latency <- ggplot(combined_data, aes(x = generation, y = average_latency)) +
     geom_ribbon(aes(ymin = min_latency, ymax = max_latency), alpha = 0.2, linetype = 2, fill = "#ff6e54") +
     geom_line(color = "#ff6e54", size = 1) +
     labs(
@@ -103,6 +103,7 @@ latency  <-  ggplot(combined_data, aes(x = generation, y = average_latency)) +
         segment_8_last_gen,
         segment_9_last_gen
     ), linetype = "dashed", color = "#323232") +
+    geom_vline(xintercept = segment_5_last_gen, linetype = "solid", color = "red") +
     geom_text(aes(x = 1, label = "4 SFCRs\n", y = 50), colour = "#003f5c", angle = 90, family = "Times New Roman") +
     geom_text(aes(x = segment_1_last_gen, label = "8 SFCRs\n", y = 50), colour = "#003f5c", angle = 90, family = "Times New Roman") +
     geom_text(aes(x = segment_2_last_gen, label = "12 SFCRs\n", y = 50), colour = "#003f5c", angle = 90, family = "Times New Roman") +
@@ -148,6 +149,7 @@ ar <- ggplot(combined_data, aes(x = generation, y = average_ar)) +
         segment_8_last_gen,
         segment_9_last_gen
     ), linetype = "dashed", color = "#323232") +
+    geom_vline(xintercept = segment_5_last_gen, linetype = "solid", color = "red") +
     geom_text(aes(x = 1, label = "4 SFCRs\n", y = 0.3), colour = "#003f5c", angle = 90, family = "Times New Roman") +
     geom_text(aes(x = segment_1_last_gen, label = "8 SFCRs\n", y = 0.3), colour = "#003f5c", angle = 90, family = "Times New Roman") +
     geom_text(aes(x = segment_2_last_gen, label = "12 SFCRs\n", y = 0.3), colour = "#003f5c", angle = 90, family = "Times New Roman") +
