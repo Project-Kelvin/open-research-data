@@ -1,3 +1,0 @@
-Time taken: 24.03
-Acceptance Ratio: 1.00
-Latency: 538.19

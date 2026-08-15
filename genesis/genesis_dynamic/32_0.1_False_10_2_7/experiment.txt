@@ -1,6 +1,0 @@
-No. of SFCRs: 128
-Traffic Scale: 1.0
-Traffic Pattern: Pattern A
-Link Bandwidth: 10
-No. of CPUs: 2
-Time taken: 435.07

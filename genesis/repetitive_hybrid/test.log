@@ -1,0 +1,99 @@
+========================================================================
+1. CONVERGENCE RATE — Fisher's exact test + effect sizes
+========================================================================
+
+-- dc --
+           converged   n
+algorithm               
+bega               0  20
+gaha               0  20
+genesis           20  20
+  genesis (100%) vs bega (0%): Fisher p=0.000000 | risk diff=+1.00 | RR=inf | OR(Haldane)=1681.00
+  genesis (100%) vs gaha (0%): Fisher p=0.000000 | risk diff=+1.00 | RR=inf | OR(Haldane)=1681.00
+
+-- milan --
+           converged   n
+algorithm               
+bega               0  20
+gaha              19  20
+genesis           20  20
+  genesis (100%) vs bega (0%): Fisher p=0.000000 | risk diff=+1.00 | RR=inf | OR(Haldane)=1681.00
+  genesis (100%) vs gaha (95%): Fisher p=1.000000 | risk diff=+0.05 | RR=1.05 | OR(Haldane)=3.15
+
+-- 25n50e --
+           converged   n
+algorithm               
+bega               8  20
+gaha              20  20
+genesis           20  20
+  genesis (100%) vs bega (40%): Fisher p=0.000045 | risk diff=+0.60 | RR=2.50 | OR(Haldane)=60.29
+  genesis (100%) vs gaha (100%): Fisher p=1.000000 | risk diff=+0.00 | RR=1.00 | OR(Haldane)=1.00
+
+========================================================================
+2. LOG-RANK TEST — generations-to-converge, censored at budget
+========================================================================
+
+-- dc --
+  genesis vs bega: chi2=46.720, p=0.000000
+  genesis vs gaha: chi2=46.720, p=0.000000
+
+-- milan --
+  genesis vs bega: chi2=46.344, p=0.000000
+  genesis vs gaha: chi2=5.798, p=0.016042
+
+-- 25n50e --
+  genesis vs bega: chi2=47.129, p=0.000000
+  genesis vs gaha: chi2=16.531, p=0.000048
+
+========================================================================
+3. KAPLAN-MEIER median generations-to-converge
+========================================================================
+
+-- dc --
+  genesis: KM median = 7.0 (converged 20/20)
+  bega: KM median = inf (converged 0/20)
+  gaha: KM median = inf (converged 0/20)
+
+-- milan --
+  genesis: KM median = 8.0 (converged 20/20)
+  bega: KM median = inf (converged 0/20)
+  gaha: KM median = 23.0 (converged 19/20)
+
+-- 25n50e --
+  genesis: KM median = 1.0 (converged 20/20)
+  bega: KM median = inf (converged 8/20)
+  gaha: KM median = 7.0 (converged 20/20)
+
+========================================================================
+4. HAZARD RATIO — Cox proportional hazards model
+========================================================================
+
+-- dc --
+  genesis vs bega: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis 20/20, bega 0/20). Report the risk difference from section 1 instead.
+  genesis vs gaha: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis 20/20, gaha 0/20). Report the risk difference from section 1 instead.
+
+-- milan --
+  genesis vs bega: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis 20/20, bega 0/20). Report the risk difference from section 1 instead.
+  genesis vs gaha: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis 20/20, gaha 19/20). Report the risk difference from section 1 instead.
+
+-- 25n50e --
+  genesis vs bega: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis 20/20, bega 8/20). Report the risk difference from section 1 instead.
+  genesis vs gaha: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis 20/20, gaha 20/20). Report the risk difference from section 1 instead.
+
+========================================================================
+5. VARGHA-DELANEY A12 — generations among CONVERGED runs (secondary)
+========================================================================
+
+-- dc --
+  genesis vs bega: bega has 0 converged runs — A12 undefined
+  genesis vs gaha: gaha has 0 converged runs — A12 undefined
+
+-- milan --
+  genesis vs bega: bega has 0 converged runs — A12 undefined
+  genesis vs gaha: A12=0.747 (large effect; A12<0.5 favors genesis)
+
+-- 25n50e --
+  genesis vs bega: A12=1.000 (large effect; A12<0.5 favors genesis)
+  genesis vs gaha: A12=0.797 (large effect; A12<0.5 favors genesis)
+
+KM plot saved to km_plot.png

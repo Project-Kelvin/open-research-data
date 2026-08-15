@@ -1,0 +1,17 @@
+Error Metrics for All Data:
+MAE: 315.7820997292078
+MAPE: 0.8567672744539113
+R2: 0.9059333710908235
+RMSE: 687.3024546739238
+True Positives: 6252
+False Negatives: 210
+False Positives: 84
+True Negatives: 3590
+Precision: 0.99
+Recall: 0.97
+F1 Score: 0.98
+Negative Precision: 0.94
+Negative Recall: 0.98
+Negative F1 Score: 0.96
+Total Experiments: 0
+Total Rows: 0

@@ -1,0 +1,6 @@
+experiment,segment,acceptance_ratio,calculated_delay,measured_latency,total_execution_time,episodes_used,converged,termination_reason
+RL_0.1_False_10_2_fat-tree,0,0.3125,17800125.465682972,1411.5600998989855,22377.26780474803,500,false,max_episodes_reached
+RL_0.2_False_10_2_fat-tree,0,0.3125,18200129.465682972,1451.844655936986,22660.998153688037,500,false,max_episodes_reached
+RL_0.1_True_10_2_fat-tree,0,0.3125,18027.465682974045,1316.7684551150164,21828.496554229,500,false,max_episodes_reached
+RL_0.1_False_5_2_fat-tree,0,0.09375,16111.168552846824,2849.7576081658367,21973.84639784298,500,false,max_episodes_reached
+RL_0.1_False_10_1_fat-tree,0,0.21875,21598.080787468058,1580.6852414977423,18944.083251803997,500,false,max_episodes_reached

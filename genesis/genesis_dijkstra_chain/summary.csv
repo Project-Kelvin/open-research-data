@@ -1,0 +1,2 @@
+dijkstra_chain,runs,mean_generations,median_generations,max_generations,min_generations,q1_generations,q3_generations,iqr_generations,ci_generations,generations_upper_lower,std_deviation_generations,converged_number,convergence_percent,mean_time_taken,std_deviation_time_taken,q1_time_taken,q3_time_taken,iqr_time_taken,ci_time_taken,time_taken_upper_lower
+True,20,100,100.0,100,100,100.0,100.0,0.0,0.0,100.0-100.0,0.0,0,0.0,673.69,4.37,670.61,676.08,5.48,2.05,671.64-675.74

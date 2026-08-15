@@ -1,0 +1,9 @@
+component,calibration,architecture,activation functions,initialiser,MAPE
+dpi,calibrations_mem_v7,"1,32,32,32,1",relu,he_normal,0.41900545358657837
+dummy,calibrations_mem_v14,"1,64,128,128,1",relu,he_normal,0.27459943294525146
+ha,calibrations_mem_v8,"1,32,32,64,1",relu,he_normal,0.3027650713920593
+ids,calibrations_mem_v9,"1,64,64,64,1",relu,he_normal,0.24177995324134827
+ips,calibrations_mem_v4,"1,32,1",relu,glorot_normal,0.4253801703453064
+lb,calibrations_mem_v6,"1,64,1",relu,he_normal,0.4642326235771179
+tm,calibrations_mem_v8,"1,32,32,64,1",relu,he_normal,0.3131799101829529
+waf,calibrations_mem_v9,"1,64,64,64,1",relu,he_normal,0.362507164478302

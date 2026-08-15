@@ -1,0 +1,29 @@
+Experiment Name: 10_0.1_False_10_1_1_25n50e_0
+Completed Date: 2026-08-04 21:04:26
+No. of SFCRs: 40
+Traffic Scale: 1.0
+Traffic Pattern: Pattern A
+Link Bandwidth: 10
+No. of CPUs: 1
+Time taken: 1009.67
+Qualified Individuals: 1
+Minimum Acceptance Rate: 0.95
+Maximum Latency: 100
+Minimum Qualified Individuals: 1
+Population Size: 20
+Maximum Number of Generations: 100
+Maximum Memory Demand: 10
+Mutation Probability: 0.7
+Gene Mutation Probability: 0.7
+Crossover Probability: 1.0
+Evaluation Type: Hybrid
+Is VNF CC Disabled: False
+Is Dijkstra Used: False
+Is Gaussian Disabled: False
+Activation Function: sin
+Initial Weight Limit: 3.141592653589793
+Rejection Rate: 0.05
+Sigma: 1.0
+Retrain: False
+Seed: 6755967
+Environment: 25n50e

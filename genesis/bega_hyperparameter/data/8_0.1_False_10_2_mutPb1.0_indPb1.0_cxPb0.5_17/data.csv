@@ -1,0 +1,5 @@
+method, generation, average_ar, max_ar, min_ar, average_latency, max_latency, min_latency
+surrogate, 1, 0.1734375, 0.5625, 0.0, 5023.85, 50000.0, 23.0
+surrogate, 2, 0.275, 0.5625, 0.03125, 26.15, 33.0, 23.0
+surrogate, 3, 0.3359375, 0.5625, 0.09375, 26.65, 33.0, 23.0
+surrogate, 4, 0.3703125, 1.0, 0.25, 26.35, 36.0, 23.0

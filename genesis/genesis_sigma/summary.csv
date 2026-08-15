@@ -1,0 +1,5 @@
+sigma,runs,mean_generations,median_generations,max_generations,min_generations,q1_generations,q3_generations,iqr_generations,ci_generations,generations_upper_lower,std_deviation_generations,converged_number,convergence_percent,mean_time_taken,std_deviation_time_taken,q1_time_taken,q3_time_taken,iqr_time_taken,ci_time_taken,time_taken_upper_lower
+0.0,20,9.75,7.5,29,1,1.75,12.75,11.0,4.42,5.33-14.17,9.44,20,100.0,583.86,558.82,88.57,809.42,720.85,261.54,322.32-845.4
+1.0,20,5.9,5.0,14,1,3.0,8.0,5.0,1.88,4.02-7.78,4.02,20,100.0,386.51,263.71,194.16,524.01,329.84,123.42,263.09-509.93
+2.0,20,8.55,4.5,31,1,1.0,15.0,14.0,3.98,4.57-12.53,8.49,20,100.0,586.69,592.62,77.88,1013.14,935.26,277.35,309.34-864.04
+4.0,20,10.25,5.5,42,1,2.0,11.25,9.25,5.65,4.6-15.9,12.08,20,100.0,761.35,931.57,137.22,796.37,659.15,435.99,325.36-1197.34

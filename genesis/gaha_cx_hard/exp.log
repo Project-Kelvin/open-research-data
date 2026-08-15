@@ -1,0 +1,2504 @@
+Warning: 'gahaHybrid' is an entry point defined in pyproject.toml, but it's not installed as a script. You may get improper `sys.argv[0]`.
+
+The support to run uninstalled scripts will be removed in a future release.
+
+Run `poetry install` to resolve and get rid of this message.
+
+2026-07-22 13:02:41.421999: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-07-22 13:02:41.423760: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2026-07-22 13:02:41.430174: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2026-07-22 13:02:41.445182: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1784721761.470628  543382 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1784721761.478830  543382 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-07-22 13:02:41.505337: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-07-22 13:02:45.675332: E external/local_xla/xla/stream_executor/cuda/cuda_driver.cc:152] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+Error setting h1-eth0 up: [?2004l
+[?2004h Error setting h1Node-eth0 up: [?2004l
+[?2004h Error setting h2-eth0 up: [?2004l
+[?2004h Error setting h2Node-eth0 up: [?2004l
+[?2004h Error setting h3-eth0 up: [?2004l
+[?2004h Error setting h3Node-eth0 up: [?2004l
+[?2004h Error setting h4-eth0 up: [?2004l
+[?2004h Error setting h4Node-eth0 up: [?2004l
+[?2004h Error setting h5-eth0 up: [?2004l
+[?2004h Error setting h5Node-eth0 up: [?2004l
+[?2004h Error setting h6-eth0 up: [?2004l
+[?2004h Error setting h6Node-eth0 up: [?2004l
+[?2004h Error setting h7-eth0 up: [?2004l
+[?2004h Error setting h7Node-eth0 up: [?2004l
+[?2004h Error setting h8-eth0 up: [?2004l
+[?2004h Error setting h8Node-eth0 up: [?2004l
+[?2004h Error setting h9-eth0 up: [?2004l
+[?2004h Error setting h9Node-eth0 up: [?2004l
+[?2004h Error setting h10-eth0 up: [?2004l
+[?2004h Error setting h10Node-eth0 up: [?2004l
+[?2004h Error setting h11-eth0 up: [?2004l
+[?2004h Error setting h11Node-eth0 up: [?2004l
+[?2004h Error setting h12-eth0 up: [?2004l
+[?2004h Error setting h12Node-eth0 up: [?2004l
+[?2004h Error setting h13-eth0 up: [?2004l
+[?2004h Error setting h13Node-eth0 up: [?2004l
+[?2004h Error setting h14-eth0 up: [?2004l
+[?2004h Error setting h14Node-eth0 up: [?2004l
+[?2004h Error setting sfcc-eth0 up: [?2004l
+[?2004h *** Error: [?2004l
+[?2004h*** Error: [?2004l
+[?2004hError setting h1-eth1 up: [?2004l
+[?2004h *** Error: [?2004l
+[?2004h*** Error: [?2004l
+[?2004hError setting h2-eth1 up: [?2004l
+[?2004h *** Error: [?2004l
+[?2004h*** Error: [?2004l
+[?2004hError setting h3-eth1 up: [?2004l
+[?2004h *** Error: [?2004l
+[?2004h*** Error: [?2004l
+[?2004hError setting h4-eth1 up: [?2004l
+[?2004h *** Error: [?2004l
+[?2004h*** Error: [?2004l
+[?2004hError setting h5-eth1 up: [?2004l
+[?2004h *** Error: [?2004l
+[?2004h*** Error: [?2004l
+[?2004hError setting h6-eth1 up: [?2004l
+[?2004h *** Error: [?2004l
+[?2004h*** Error: [?2004l
+[?2004hError setting h7-eth1 up: [?2004l
+[?2004h *** Error: [?2004l
+[?2004h*** Error: [?2004l
+[?2004hError setting h8-eth1 up: [?2004l
+[?2004h *** Error: [?2004l
+[?2004h*** Error: [?2004l
+[?2004hError setting h9-eth1 up: [?2004l
+[?2004h *** Error: [?2004l
+[?2004h*** Error: [?2004l
+[?2004hError setting h10-eth1 up: [?2004l
+[?2004h *** Error: [?2004l
+[?2004h*** Error: [?2004l
+[?2004hError setting h11-eth1 up: [?2004l
+[?2004h *** Error: [?2004l
+[?2004h*** Error: [?2004l
+[?2004hError setting h12-eth1 up: [?2004l
+[?2004h *** Error: [?2004l
+[?2004h*** Error: [?2004l
+[?2004hError setting h13-eth1 up: [?2004l
+[?2004h *** Error: [?2004l
+[?2004h*** Error: [?2004l
+[?2004hError setting server-eth0 up: [?2004l
+[?2004h *** Error: [?2004l
+[?2004h*** Error: [?2004l
+[?2004hError setting h14-eth1 up: [?2004l
+[?2004h *** Error: [?2004l
+[?2004h*** Error: [?2004l
+[?2004hStarting traffic generator parent container.
+Installing topology:
+Waiting for traffic generator parent container to start.
+  Installing SFCC.
+  Installing server.
+  Installing hosts:
+    Installing host h1.
+    Installing host h2.
+    Installing host h3.
+    Installing host h4.
+    Installing host h5.
+    Installing host h6.
+    Installing host h7.
+    Installing host h8.
+    Installing host h9.
+    Installing host h10.
+    Installing host h11.
+    Installing host h12.
+    Installing host h13.
+    Installing host h14.
+Waiitng for traffic generator parent container to start is over.
+  Installing switches:
+    Installing cs11.
+    Installed cs11 with id 000000000000000b.
+    Installing cs12.
+    Installed cs12 with id 000000000000000c.
+    Installing cs13.
+    Installed cs13 with id 000000000000000d.
+    Installing cs14.
+    Installed cs14 with id 000000000000000e.
+    Installing as21.
+    Installed as21 with id 0000000000000015.
+    Installing as22.
+    Installed as22 with id 0000000000000016.
+    Installing as23.
+    Installed as23 with id 0000000000000017.
+    Installing as24.
+    Installed as24 with id 0000000000000018.
+Traffic generator parent container started.
+    Installing as25.
+    Installed as25 with id 0000000000000019.
+    Installing as26.
+    Installed as26 with id 000000000000001a.
+    Installing as27.
+    Installed as27 with id 000000000000001b.
+    Installing as28.
+    Installed as28 with id 000000000000001c.
+    Installing es31.
+    Installed es31 with id 000000000000001f.
+    Installing es32.
+    Installed es32 with id 0000000000000020.
+    Installing es33.
+    Installed es33 with id 0000000000000021.
+    Installing es34.
+    Installed es34 with id 0000000000000022.
+    Installing es35.
+    Installed es35 with id 0000000000000023.
+    Installing es36.
+    Installed es36 with id 0000000000000024.
+    Installing es37.
+    Installed es37 with id 0000000000000025.
+    Installing es38.
+    Installed es38 with id 0000000000000026.
+  Establishing links:
+    Linking es31 to sfcc.
+    Linking es31 to h1.
+    Linking es32 to h2.
+    Linking es32 to h3.
+    Linking es33 to h4.
+    Linking es33 to h5.
+    Linking es34 to h6.
+    Linking es34 to h7.
+    Linking es35 to h8.
+    Linking es35 to h9.
+    Linking es36 to h10.
+    Linking es36 to h11.
+    Linking es37 to h12.
+    Linking es37 to h13.
+    Linking es38 to server.
+    Linking es38 to h14.
+    Linking as21 to es31.
+    Linking as21 to es32.
+    Linking cs11 to as21.
+    Linking cs12 to as21.
+    Linking as22 to es31.
+    Linking as22 to es32.
+    Linking cs13 to as22.
+    Linking cs14 to as22.
+    Linking as23 to es33.
+    Linking as23 to es34.
+    Linking cs11 to as23.
+    Linking cs12 to as23.
+    Linking as24 to es33.
+    Linking as24 to es34.
+    Linking cs13 to as24.
+    Linking cs14 to as24.
+    Linking as25 to es35.
+    Linking as25 to es36.
+    Linking cs11 to as25.
+    Linking cs12 to as25.
+    Linking as26 to es35.
+    Linking as26 to es36.
+    Linking cs13 to as26.
+    Linking cs14 to as26.
+    Linking as27 to es37.
+    Linking as27 to es38.
+    Linking cs11 to as27.
+    Linking cs12 to as27.
+    Linking as28 to es37.
+    Linking as28 to es38.
+    Linking cs13 to as28.
+    Linking cs14 to as28.
+Starting Mininet.
+Waiting till Ryu is ready.
+  cs11 is ready.
+  cs12 is ready.
+  cs13 is ready.
+  as21 is ready.
+  cs14 is ready.
+  as22 is ready.
+  as23 is ready.
+  as24 is ready.
+  as26 is ready.
+  as27 is ready.
+  as25 is ready.
+  as28 is ready.
+  es31 is ready.
+  es32 is ready.
+  es33 is ready.
+  es34 is ready.
+  es35 is ready.
+  es36 is ready.
+  es37 is ready.
+  es38 is ready.
+Adding IP addresses to hosts.
+Waiting till host containers are ready.
+  Waiting for h1Node to be ready.
+  Waiting for h2Node to be ready.
+  Waiting for h3Node to be ready.
+  Waiting for h4Node to be ready.
+  Waiting for h5Node to be ready.
+  Waiting for h6Node to be ready.
+  Waiting for h7Node to be ready.
+  Waiting for h8Node to be ready.
+  Waiting for h9Node to be ready.
+  Waiting for h10Node to be ready.
+  Waiting for h11Node to be ready.
+  Waiting for h12Node to be ready.
+  Waiting for h13Node to be ready.
+  Waiting for h14Node to be ready.
+  Waiting for h1 to be ready.
+  Waiting for h2 to be ready.
+  Waiting for h3 to be ready.
+  Waiting for h4 to be ready.
+  Waiting for h5 to be ready.
+  Waiting for h6 to be ready.
+  Waiting for h7 to be ready.
+  Waiting for h8 to be ready.
+  Waiting for h9 to be ready.
+  Waiting for h10 to be ready.
+  Waiting for h11 to be ready.
+  Waiting for h12 to be ready.
+  Waiting for h13 to be ready.
+  Waiting for h14 to be ready.
+Initiating RX and TX ends of SFF.
+Topology installed successfully!
+Starting Request Generator.
+Receiving 80 requests:
+  sfcr0-0
+  sfcr0-1
+  sfcr0-2
+  sfcr0-3
+  sfcr0-4
+  sfcr0-5
+  sfcr0-6
+  sfcr0-7
+  sfcr0-8
+  sfcr0-9
+  sfcr0-10
+  sfcr0-11
+  sfcr0-12
+  sfcr0-13
+  sfcr0-14
+  sfcr0-15
+  sfcr0-16
+  sfcr0-17
+  sfcr0-18
+  sfcr0-19
+  sfcr1-0
+  sfcr1-1
+  sfcr1-2
+  sfcr1-3
+  sfcr1-4
+  sfcr1-5
+  sfcr1-6
+  sfcr1-7
+  sfcr1-8
+  sfcr1-9
+  sfcr1-10
+  sfcr1-11
+  sfcr1-12
+  sfcr1-13
+  sfcr1-14
+  sfcr1-15
+  sfcr1-16
+  sfcr1-17
+  sfcr1-18
+  sfcr1-19
+  sfcr2-0
+  sfcr2-1
+  sfcr2-2
+  sfcr2-3
+  sfcr2-4
+  sfcr2-5
+  sfcr2-6
+  sfcr2-7
+  sfcr2-8
+  sfcr2-9
+  sfcr2-10
+  sfcr2-11
+  sfcr2-12
+  sfcr2-13
+  sfcr2-14
+  sfcr2-15
+  sfcr2-16
+  sfcr2-17
+  sfcr2-18
+  sfcr2-19
+  sfcr3-0
+  sfcr3-1
+  sfcr3-2
+  sfcr3-3
+  sfcr3-4
+  sfcr3-5
+  sfcr3-6
+  sfcr3-7
+  sfcr3-8
+  sfcr3-9
+  sfcr3-10
+  sfcr3-11
+  sfcr3-12
+  sfcr3-13
+  sfcr3-14
+  sfcr3-15
+  sfcr3-16
+  sfcr3-17
+  sfcr3-18
+  sfcr3-19
+Starting Solver.
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_0
+WARNING:tensorflow:5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x7f7a61d09160> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x7f7a61d09820> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1294 embedding graphs in 2.15 seconds.
+Latency prediction took 1.37 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.9805857699830085 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1417 embedding graphs in 2.25 seconds.
+Latency prediction took 1.44 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.9998566519934684 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 3/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 3
+Time taken: 52.26s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_1
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1275 embedding graphs in 2.07 seconds.
+Latency prediction took 1.37 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.074151086853817 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1396 embedding graphs in 1.69 seconds.
+Latency prediction took 1.30 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.0040613280143589 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 50.35s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_2
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1296 embedding graphs in 1.55 seconds.
+Latency prediction took 1.45 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.083616441115737 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1416 embedding graphs in 2.22 seconds.
+Latency prediction took 1.43 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.9672515031415969 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 51.52s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_3
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1316 embedding graphs in 1.78 seconds.
+Latency prediction took 1.29 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.9036419379990548 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1496 embedding graphs in 1.01 seconds.
+Latency prediction took 0.78 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.6444283889140934 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 50.04s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_4
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1312 embedding graphs in 0.95 seconds.
+Latency prediction took 0.85 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.6511027019005269 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1427 embedding graphs in 0.88 seconds.
+Latency prediction took 0.88 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.8113201761152595 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 48.96s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_5
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1277 embedding graphs in 1.44 seconds.
+Latency prediction took 1.36 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.0422545538749546 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1453 embedding graphs in 1.61 seconds.
+Latency prediction took 1.34 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.0438960890751332 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 3/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 3
+Time taken: 54.34s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_6
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1303 embedding graphs in 1.88 seconds.
+Latency prediction took 1.29 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1245643249712884 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1406 embedding graphs in 1.59 seconds.
+Latency prediction took 1.50 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.0317233800888062 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 50.66s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_7
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1287 embedding graphs in 1.66 seconds.
+Latency prediction took 1.40 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1057179169729352 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1438 embedding graphs in 2.18 seconds.
+Latency prediction took 1.49 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.1946837259456515 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 51.77s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_8
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1275 embedding graphs in 2.10 seconds.
+Latency prediction took 1.46 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1228361029643565 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1475 embedding graphs in 1.80 seconds.
+Latency prediction took 1.46 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.1636639919597656 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 51.92s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_9
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1267 embedding graphs in 1.88 seconds.
+Latency prediction took 1.46 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1985435949172825 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1423 embedding graphs in 2.06 seconds.
+Latency prediction took 1.21 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.9001122871413827 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 51.18s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_10
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1298 embedding graphs in 1.35 seconds.
+Latency prediction took 1.18 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.8011566451750696 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1421 embedding graphs in 0.85 seconds.
+Latency prediction took 0.77 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.6969036899972707 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 48.38s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_11
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1292 embedding graphs in 1.47 seconds.
+Latency prediction took 1.42 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1473473960068077 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1445 embedding graphs in 1.62 seconds.
+Latency prediction took 1.34 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.0372541770339012 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 50.33s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_12
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1290 embedding graphs in 1.52 seconds.
+Latency prediction took 1.34 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.141830402892083 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1462 embedding graphs in 1.85 seconds.
+Latency prediction took 1.50 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.1086977561935782 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 4/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 4
+Time taken: 53.20s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_13
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1289 embedding graphs in 2.17 seconds.
+Latency prediction took 1.50 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1677048960700631 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1441 embedding graphs in 1.88 seconds.
+Latency prediction took 1.35 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.2040500619914383 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 51.02s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_14
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1311 embedding graphs in 1.74 seconds.
+Latency prediction took 1.26 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.034511114936322 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1491 embedding graphs in 1.58 seconds.
+Latency prediction took 0.99 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.7924618399702013 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 51.54s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_15
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1323 embedding graphs in 1.00 seconds.
+Latency prediction took 0.81 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.6489784580189735 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1432 embedding graphs in 0.93 seconds.
+Latency prediction took 0.87 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.7136846221983433 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 46.66s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_16
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1291 embedding graphs in 1.67 seconds.
+Latency prediction took 1.32 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1081450919155031 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1422 embedding graphs in 1.71 seconds.
+Latency prediction took 1.32 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.0379009880125523 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 50.79s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_17
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1320 embedding graphs in 1.78 seconds.
+Latency prediction took 1.46 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.19742620899342 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1441 embedding graphs in 1.81 seconds.
+Latency prediction took 1.53 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.1553595720324665 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 52.91s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_18
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1286 embedding graphs in 2.13 seconds.
+Latency prediction took 1.46 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1257568609435111 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1423 embedding graphs in 1.72 seconds.
+Latency prediction took 1.28 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.0478218370117247 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 51.53s
+Running experiment 20_0.1_False_10_1 with cxPb=0.2.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.2_19
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1277 embedding graphs in 1.23 seconds.
+Latency prediction took 1.03 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.882650428917259 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1430 embedding graphs in 1.15 seconds.
+Latency prediction took 0.83 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.6868246980011463 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 47.60s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_0
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1289 embedding graphs in 0.88 seconds.
+Latency prediction took 0.84 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.7037199339829385 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1437 embedding graphs in 1.60 seconds.
+Latency prediction took 1.33 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.9679989169817418 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 48.26s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_1
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1282 embedding graphs in 1.96 seconds.
+Latency prediction took 1.37 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1396267779637128 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1393 embedding graphs in 1.78 seconds.
+Latency prediction took 1.43 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.1774706069845706 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 4/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 4
+Time taken: 49.46s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_2
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1295 embedding graphs in 1.59 seconds.
+Latency prediction took 1.34 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.2509313011541963 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1358 embedding graphs in 2.05 seconds.
+Latency prediction took 1.34 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.193790447898209 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 51.08s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_3
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1297 embedding graphs in 1.47 seconds.
+Latency prediction took 1.38 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.0656714509241283 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1477 embedding graphs in 1.37 seconds.
+Latency prediction took 1.27 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.9505760031752288 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 51.19s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_4
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1275 embedding graphs in 1.38 seconds.
+Latency prediction took 1.27 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.0271725819911808 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1428 embedding graphs in 1.00 seconds.
+Latency prediction took 0.84 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.7090729321353137 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 47.48s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_5
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1284 embedding graphs in 0.86 seconds.
+Latency prediction took 0.81 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.7080285619013011 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1464 embedding graphs in 1.61 seconds.
+Latency prediction took 1.46 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.088937158929184 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 48.83s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_6
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1290 embedding graphs in 1.76 seconds.
+Latency prediction took 1.53 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.0637715549673885 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1421 embedding graphs in 1.74 seconds.
+Latency prediction took 1.40 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.0813944349065423 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 52.18s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_7
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1291 embedding graphs in 1.66 seconds.
+Latency prediction took 1.37 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.0631833299994469 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1403 embedding graphs in 1.77 seconds.
+Latency prediction took 1.47 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.9625404351390898 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 3/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 3
+Time taken: 53.02s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_8
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1261 embedding graphs in 1.73 seconds.
+Latency prediction took 1.29 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.079273337032646 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1398 embedding graphs in 1.20 seconds.
+Latency prediction took 0.88 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.7274019478354603 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 47.59s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_9
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1289 embedding graphs in 0.80 seconds.
+Latency prediction took 0.77 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.7086310249287635 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1447 embedding graphs in 1.18 seconds.
+Latency prediction took 0.91 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.8129263329319656 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 3/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 3
+Time taken: 48.13s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_10
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1285 embedding graphs in 1.27 seconds.
+Latency prediction took 1.46 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.9917056348640472 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1416 embedding graphs in 1.68 seconds.
+Latency prediction took 1.27 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.0970958878751844 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 3/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 3
+Time taken: 51.83s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_11
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1314 embedding graphs in 1.80 seconds.
+Latency prediction took 1.54 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1610554968938231 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1462 embedding graphs in 1.88 seconds.
+Latency prediction took 1.69 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.2413717180024832 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 52.09s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_12
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1303 embedding graphs in 1.70 seconds.
+Latency prediction took 1.48 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.03099660621956 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1461 embedding graphs in 1.28 seconds.
+Latency prediction took 1.12 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.9452675220090896 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 49.26s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_13
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1300 embedding graphs in 1.31 seconds.
+Latency prediction took 1.08 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.8247436699457467 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1460 embedding graphs in 0.88 seconds.
+Latency prediction took 0.78 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.6922427089884877 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 3/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 3
+Time taken: 46.04s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_14
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1282 embedding graphs in 0.83 seconds.
+Latency prediction took 0.89 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.7457602189388126 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1399 embedding graphs in 1.42 seconds.
+Latency prediction took 1.29 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.17338347597979 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 47.40s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_15
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1301 embedding graphs in 1.84 seconds.
+Latency prediction took 1.44 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.2958274690899998 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1430 embedding graphs in 1.66 seconds.
+Latency prediction took 1.55 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.1695592331234366 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 49.95s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_16
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1279 embedding graphs in 1.66 seconds.
+Latency prediction took 1.50 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1670894077979028 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1439 embedding graphs in 1.64 seconds.
+Latency prediction took 1.06 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.8293998839799315 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 49.88s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_17
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1282 embedding graphs in 1.25 seconds.
+Latency prediction took 1.15 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.9228202810045332 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1487 embedding graphs in 0.83 seconds.
+Latency prediction took 0.85 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.6666010308545083 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 45.58s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_18
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1275 embedding graphs in 0.83 seconds.
+Latency prediction took 0.90 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.7091804000083357 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1423 embedding graphs in 1.27 seconds.
+Latency prediction took 1.54 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.0533614088781178 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 47.12s
+Running experiment 20_0.1_False_10_1 with cxPb=0.5.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.5_19
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1302 embedding graphs in 1.53 seconds.
+Latency prediction took 1.40 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1058906798716635 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1466 embedding graphs in 1.63 seconds.
+Latency prediction took 1.56 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.2649901539552957 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 50.77s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_0
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1303 embedding graphs in 2.14 seconds.
+Latency prediction took 1.40 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.2765038651414216 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1457 embedding graphs in 1.76 seconds.
+Latency prediction took 1.39 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.1278533190488815 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 3/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 3
+Time taken: 52.62s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_1
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1286 embedding graphs in 1.39 seconds.
+Latency prediction took 1.23 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.9337217970751226 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1461 embedding graphs in 1.23 seconds.
+Latency prediction took 0.87 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.6869422178715467 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 48.60s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_2
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1266 embedding graphs in 0.86 seconds.
+Latency prediction took 0.87 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.8622253639623523 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1440 embedding graphs in 1.46 seconds.
+Latency prediction took 1.33 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.1178371338173747 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 3/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 3
+Time taken: 46.32s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_3
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1274 embedding graphs in 1.64 seconds.
+Latency prediction took 1.40 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1447081540245563 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1423 embedding graphs in 1.73 seconds.
+Latency prediction took 1.43 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.2083892729133368 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 50.82s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_4
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1271 embedding graphs in 1.09 seconds.
+Latency prediction took 0.96 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.6919214641675353 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1403 embedding graphs in 0.99 seconds.
+Latency prediction took 0.90 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.7835816640872508 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 48.68s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_5
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1302 embedding graphs in 1.67 seconds.
+Latency prediction took 1.52 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1118862670846283 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1485 embedding graphs in 1.77 seconds.
+Latency prediction took 1.40 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.1262049770448357 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 51.49s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_6
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1290 embedding graphs in 0.84 seconds.
+Latency prediction took 0.84 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.7125669049564749 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1444 embedding graphs in 0.90 seconds.
+Latency prediction took 1.11 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.2569818149786443 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 49.67s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_7
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1280 embedding graphs in 2.00 seconds.
+Latency prediction took 1.28 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.2045739241875708 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1426 embedding graphs in 1.68 seconds.
+Latency prediction took 1.49 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.1534598488360643 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 4/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 4
+Time taken: 50.68s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_8
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1281 embedding graphs in 0.87 seconds.
+Latency prediction took 0.86 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.7794466570485383 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1461 embedding graphs in 1.14 seconds.
+Latency prediction took 0.82 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.6841370849870145 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 46.33s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_9
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1282 embedding graphs in 1.56 seconds.
+Latency prediction took 1.26 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.0216139270924032 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1449 embedding graphs in 1.70 seconds.
+Latency prediction took 1.33 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.258282040944323 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 5/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 5
+Time taken: 47.91s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_10
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1290 embedding graphs in 2.14 seconds.
+Latency prediction took 1.42 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.0508495969697833 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1443 embedding graphs in 1.11 seconds.
+Latency prediction took 0.88 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.6557569319847971 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 49.99s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_11
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1277 embedding graphs in 0.90 seconds.
+Latency prediction took 1.40 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.2155267340131104 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1445 embedding graphs in 1.50 seconds.
+Latency prediction took 1.36 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.0847216180991381 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 47.12s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_12
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1276 embedding graphs in 2.05 seconds.
+Latency prediction took 1.39 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.2719497820362449 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1425 embedding graphs in 1.73 seconds.
+Latency prediction took 1.46 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.1885369301307946 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 51.01s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_13
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1289 embedding graphs in 1.78 seconds.
+Latency prediction took 1.47 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.2832214650698006 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1418 embedding graphs in 2.48 seconds.
+Latency prediction took 1.38 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.2219410869292915 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 51.51s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_14
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1294 embedding graphs in 1.56 seconds.
+Latency prediction took 1.49 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.3128038661088794 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1439 embedding graphs in 1.68 seconds.
+Latency prediction took 1.55 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.2022130300756544 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 48.95s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_15
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1290 embedding graphs in 1.97 seconds.
+Latency prediction took 1.50 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1121158909518272 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1432 embedding graphs in 1.74 seconds.
+Latency prediction took 1.16 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.8531644770409912 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 49.63s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_16
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1293 embedding graphs in 1.41 seconds.
+Latency prediction took 1.22 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.8604455031454563 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1413 embedding graphs in 1.18 seconds.
+Latency prediction took 0.88 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.7153664941433817 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 50.25s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_17
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1286 embedding graphs in 0.78 seconds.
+Latency prediction took 0.76 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.7369658399838954 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1457 embedding graphs in 0.92 seconds.
+Latency prediction took 0.87 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 0.714697624091059 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 4/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 4
+Time taken: 48.62s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_18
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1305 embedding graphs in 0.83 seconds.
+Latency prediction took 0.85 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.7479681009426713 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1426 embedding graphs in 0.91 seconds.
+Latency prediction took 1.24 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.24621691997163 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 50.77s
+Running experiment 20_0.1_False_10_1 with cxPb=0.7.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb0.7_19
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1271 embedding graphs in 0.81 seconds.
+Latency prediction took 0.90 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.704955596011132 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1443 embedding graphs in 1.39 seconds.
+Latency prediction took 1.44 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.0055356281809509 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 3/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 3
+Time taken: 52.44s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_0
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1283 embedding graphs in 0.89 seconds.
+Latency prediction took 0.93 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 0.7919427971355617 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1432 embedding graphs in 1.60 seconds.
+Latency prediction took 1.36 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.240525258006528 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 53.60s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_1
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1272 embedding graphs in 1.04 seconds.
+Latency prediction took 1.38 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.213233118178323 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1446 embedding graphs in 1.60 seconds.
+Latency prediction took 1.32 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.0238228619564325 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 53.15s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_2
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1272 embedding graphs in 1.52 seconds.
+Latency prediction took 1.30 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.0759001919068396 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1435 embedding graphs in 1.74 seconds.
+Latency prediction took 1.38 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.0764950239099562 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 52.54s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_3
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1284 embedding graphs in 1.59 seconds.
+Latency prediction took 1.38 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.082720491103828 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1495 embedding graphs in 1.61 seconds.
+Latency prediction took 1.27 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.1198736089281738 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 52.88s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_4
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1312 embedding graphs in 1.96 seconds.
+Latency prediction took 1.39 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1656547070015222 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1420 embedding graphs in 1.61 seconds.
+Latency prediction took 1.49 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.166941209929064 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 4/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 4
+Time taken: 53.03s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_5
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1301 embedding graphs in 1.48 seconds.
+Latency prediction took 1.40 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.0763679209630936 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1460 embedding graphs in 2.18 seconds.
+Latency prediction took 1.40 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.0588318491354585 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 4/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 4
+Time taken: 51.61s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_6
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1271 embedding graphs in 1.46 seconds.
+Latency prediction took 1.23 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.166675603017211 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1431 embedding graphs in 1.47 seconds.
+Latency prediction took 1.49 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.033843246055767 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 51.28s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_7
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1300 embedding graphs in 1.64 seconds.
+Latency prediction took 1.31 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.220418666023761 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1446 embedding graphs in 1.71 seconds.
+Latency prediction took 1.60 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.1845320160500705 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 4/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 4
+Time taken: 53.30s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_8
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1288 embedding graphs in 1.62 seconds.
+Latency prediction took 1.51 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.0801966050639749 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1449 embedding graphs in 1.70 seconds.
+Latency prediction took 1.53 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.1836888501420617 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 54.63s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_9
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1295 embedding graphs in 2.09 seconds.
+Latency prediction took 1.54 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1536813860293478 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1426 embedding graphs in 1.69 seconds.
+Latency prediction took 1.40 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.136750608915463 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 54.28s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_10
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1289 embedding graphs in 1.72 seconds.
+Latency prediction took 1.42 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.063347804127261 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1455 embedding graphs in 1.99 seconds.
+Latency prediction took 1.32 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.2065759520046413 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 52.33s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_11
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1313 embedding graphs in 2.29 seconds.
+Latency prediction took 1.43 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.242581354919821 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1438 embedding graphs in 1.63 seconds.
+Latency prediction took 1.59 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.130004543112591 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 53.79s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_12
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1324 embedding graphs in 1.70 seconds.
+Latency prediction took 1.48 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.1317514418624341 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1448 embedding graphs in 1.72 seconds.
+Latency prediction took 1.32 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.2357819739263505 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 3/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 3
+Time taken: 54.02s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_13
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1288 embedding graphs in 1.58 seconds.
+Latency prediction took 1.53 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.245367230847478 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1459 embedding graphs in 1.65 seconds.
+Latency prediction took 1.54 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.2686941369902343 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 54.60s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_14
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1286 embedding graphs in 1.80 seconds.
+Latency prediction took 1.42 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.176982007920742 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1413 embedding graphs in 1.77 seconds.
+Latency prediction took 1.37 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.0640008940827101 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 53.87s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_15
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1282 embedding graphs in 1.60 seconds.
+Latency prediction took 1.46 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.2679989479947835 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1424 embedding graphs in 1.73 seconds.
+Latency prediction took 1.53 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.2124127128627151 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 53.99s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_16
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1309 embedding graphs in 1.88 seconds.
+Latency prediction took 1.47 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.0360240531153977 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1439 embedding graphs in 1.71 seconds.
+Latency prediction took 1.44 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.1968760460149497 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 53.13s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_17
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1282 embedding graphs in 1.59 seconds.
+Latency prediction took 1.40 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.0996419170405716 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1428 embedding graphs in 1.70 seconds.
+Latency prediction took 1.41 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.0721797531004995 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 53.68s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_18
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1268 embedding graphs in 2.10 seconds.
+Latency prediction took 1.37 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.2955152050126344 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1410 embedding graphs in 1.74 seconds.
+Latency prediction took 1.52 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.176463935058564 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 54.10s
+Running experiment 20_0.1_False_10_1 with cxPb=1.0.
+Running the hybrid online-offline solver for experiment: 20_0.1_False_10_1_cxPb1.0_19
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1265 embedding graphs in 1.80 seconds.
+Latency prediction took 1.51 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.2804986378178 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1397 embedding graphs in 2.12 seconds.
+Latency prediction took 1.46 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.1754831210710108 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 2
+Time taken: 54.85s
+Finished experiment.

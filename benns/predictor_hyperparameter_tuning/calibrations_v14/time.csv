@@ -1,0 +1,9 @@
+vnf,type,time
+waf,total,20.08
+lb,total,19.78
+tm,total,17.04
+ips,total,17.38
+ids,total,19.72
+dpi,total,17.79
+ha,total,17.48
+dummy,total,17.27

@@ -1,0 +1,113 @@
+========================================================================
+1. CONVERGENCE RATE — Fisher's exact test + effect sizes
+========================================================================
+                         converged   n
+experiment                            
+Neurons: 1                      19  20
+Neurons: 4                      20  20
+Neurons: 6                      20  20
+Random Host: 1                  20  20
+Random Host: 2                  20  20
+Random Host: 3                  20  20
+Random Host: 4                  20  20
+genesis_chain                   20  20
+genesis_control_offline         20  20
+genesis_dijkstra                 0  20
+genesis_dijkstra_chain           0  20
+genesis_gaussian                20  20
+genesis_weights                 20  20
+linear                          20  20
+relu                            20  20
+tanh                             0  20
+  genesis_control_offline (100%) vs Neurons: 1 (95%): Fisher p=1.000000 | risk diff=+0.05 | RR=1.05 | OR(Haldane)=3.15
+  genesis_control_offline (100%) vs Neurons: 4 (100%): Fisher p=1.000000 | risk diff=+0.00 | RR=1.00 | OR(Haldane)=1.00
+  genesis_control_offline (100%) vs Neurons: 6 (100%): Fisher p=1.000000 | risk diff=+0.00 | RR=1.00 | OR(Haldane)=1.00
+  genesis_control_offline (100%) vs Random Host: 1 (100%): Fisher p=1.000000 | risk diff=+0.00 | RR=1.00 | OR(Haldane)=1.00
+  genesis_control_offline (100%) vs Random Host: 2 (100%): Fisher p=1.000000 | risk diff=+0.00 | RR=1.00 | OR(Haldane)=1.00
+  genesis_control_offline (100%) vs Random Host: 3 (100%): Fisher p=1.000000 | risk diff=+0.00 | RR=1.00 | OR(Haldane)=1.00
+  genesis_control_offline (100%) vs Random Host: 4 (100%): Fisher p=1.000000 | risk diff=+0.00 | RR=1.00 | OR(Haldane)=1.00
+  genesis_control_offline (100%) vs genesis_chain (100%): Fisher p=1.000000 | risk diff=+0.00 | RR=1.00 | OR(Haldane)=1.00
+  genesis_control_offline (100%) vs genesis_dijkstra (0%): Fisher p=0.000000 | risk diff=+1.00 | RR=inf | OR(Haldane)=1681.00
+  genesis_control_offline (100%) vs genesis_dijkstra_chain (0%): Fisher p=0.000000 | risk diff=+1.00 | RR=inf | OR(Haldane)=1681.00
+  genesis_control_offline (100%) vs genesis_gaussian (100%): Fisher p=1.000000 | risk diff=+0.00 | RR=1.00 | OR(Haldane)=1.00
+  genesis_control_offline (100%) vs genesis_weights (100%): Fisher p=1.000000 | risk diff=+0.00 | RR=1.00 | OR(Haldane)=1.00
+  genesis_control_offline (100%) vs linear (100%): Fisher p=1.000000 | risk diff=+0.00 | RR=1.00 | OR(Haldane)=1.00
+  genesis_control_offline (100%) vs relu (100%): Fisher p=1.000000 | risk diff=+0.00 | RR=1.00 | OR(Haldane)=1.00
+  genesis_control_offline (100%) vs tanh (0%): Fisher p=0.000000 | risk diff=+1.00 | RR=inf | OR(Haldane)=1681.00
+
+========================================================================
+2. LOG-RANK TEST — generations-to-converge, censored at budget
+========================================================================
+  genesis_control_offline vs Neurons: 1: chi2=0.334, p=0.563250
+  genesis_control_offline vs Neurons: 4: chi2=2.199, p=0.138116
+  genesis_control_offline vs Neurons: 6: chi2=0.185, p=0.666897
+  genesis_control_offline vs Random Host: 1: chi2=0.037, p=0.848034
+  genesis_control_offline vs Random Host: 2: chi2=1.031, p=0.309827
+  genesis_control_offline vs Random Host: 3: chi2=0.580, p=0.446148
+  genesis_control_offline vs Random Host: 4: chi2=0.176, p=0.675141
+  genesis_control_offline vs genesis_chain: chi2=5.624, p=0.017719
+  genesis_control_offline vs genesis_dijkstra: chi2=46.581, p=0.000000
+  genesis_control_offline vs genesis_dijkstra_chain: chi2=46.581, p=0.000000
+  genesis_control_offline vs genesis_gaussian: chi2=13.008, p=0.000310
+  genesis_control_offline vs genesis_weights: chi2=0.131, p=0.716885
+  genesis_control_offline vs linear: chi2=11.355, p=0.000752
+  genesis_control_offline vs relu: chi2=6.929, p=0.008482
+  genesis_control_offline vs tanh: chi2=46.581, p=0.000000
+
+========================================================================
+3. KAPLAN-MEIER median generations-to-converge
+========================================================================
+  genesis_control_offline: KM median = 4.0 (converged 20/20)
+  Neurons: 1: KM median = 4.0 (converged 19/20)
+  Neurons: 4: KM median = 7.0 (converged 20/20)
+  Neurons: 6: KM median = 4.0 (converged 20/20)
+  Random Host: 1: KM median = 6.0 (converged 20/20)
+  Random Host: 2: KM median = 6.0 (converged 20/20)
+  Random Host: 3: KM median = 5.0 (converged 20/20)
+  Random Host: 4: KM median = 5.0 (converged 20/20)
+  genesis_chain: KM median = 9.0 (converged 20/20)
+  genesis_dijkstra: KM median = inf (converged 0/20)
+  genesis_dijkstra_chain: KM median = inf (converged 0/20)
+  genesis_gaussian: KM median = 11.0 (converged 20/20)
+  genesis_weights: KM median = 5.0 (converged 20/20)
+  linear: KM median = 12.0 (converged 20/20)
+  relu: KM median = 8.0 (converged 20/20)
+  tanh: KM median = inf (converged 0/20)
+
+========================================================================
+4. HAZARD RATIO — Cox proportional hazards model
+========================================================================
+  genesis_control_offline vs Neurons: 1: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis_control_offline 20/20, Neurons: 1 19/20). Report the risk difference from section 1 instead.
+  genesis_control_offline vs Neurons: 4: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis_control_offline 20/20, Neurons: 4 20/20). Report the risk difference from section 1 instead.
+  genesis_control_offline vs Neurons: 6: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis_control_offline 20/20, Neurons: 6 20/20). Report the risk difference from section 1 instead.
+  genesis_control_offline vs Random Host: 1: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis_control_offline 20/20, Random Host: 1 20/20). Report the risk difference from section 1 instead.
+  genesis_control_offline vs Random Host: 2: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis_control_offline 20/20, Random Host: 2 20/20). Report the risk difference from section 1 instead.
+  genesis_control_offline vs Random Host: 3: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis_control_offline 20/20, Random Host: 3 20/20). Report the risk difference from section 1 instead.
+  genesis_control_offline vs Random Host: 4: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis_control_offline 20/20, Random Host: 4 20/20). Report the risk difference from section 1 instead.
+  genesis_control_offline vs genesis_chain: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis_control_offline 20/20, genesis_chain 20/20). Report the risk difference from section 1 instead.
+  genesis_control_offline vs genesis_dijkstra: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis_control_offline 20/20, genesis_dijkstra 0/20). Report the risk difference from section 1 instead.
+  genesis_control_offline vs genesis_dijkstra_chain: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis_control_offline 20/20, genesis_dijkstra_chain 0/20). Report the risk difference from section 1 instead.
+  genesis_control_offline vs genesis_gaussian: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis_control_offline 20/20, genesis_gaussian 20/20). Report the risk difference from section 1 instead.
+  genesis_control_offline vs genesis_weights: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis_control_offline 20/20, genesis_weights 20/20). Report the risk difference from section 1 instead.
+  genesis_control_offline vs linear: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis_control_offline 20/20, linear 20/20). Report the risk difference from section 1 instead.
+  genesis_control_offline vs relu: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis_control_offline 20/20, relu 20/20). Report the risk difference from section 1 instead.
+  genesis_control_offline vs tanh: skipped — convergence rate perfectly/near-perfectly separates the groups (genesis_control_offline 20/20, tanh 0/20). Report the risk difference from section 1 instead.
+
+========================================================================
+5. VARGHA-DELANEY A12 — generations among CONVERGED runs (secondary)
+========================================================================
+  genesis_control_offline vs Neurons: 1: A12=0.496 (negligible effect; A12<0.5 favors genesis_control_offline)
+  genesis_control_offline vs Neurons: 4: A12=0.680 (medium effect; A12<0.5 favors genesis_control_offline)
+  genesis_control_offline vs Neurons: 6: A12=0.490 (negligible effect; A12<0.5 favors genesis_control_offline)
+  genesis_control_offline vs Random Host: 1: A12=0.529 (negligible effect; A12<0.5 favors genesis_control_offline)
+  genesis_control_offline vs Random Host: 2: A12=0.527 (negligible effect; A12<0.5 favors genesis_control_offline)
+  genesis_control_offline vs Random Host: 3: A12=0.552 (negligible effect; A12<0.5 favors genesis_control_offline)
+  genesis_control_offline vs Random Host: 4: A12=0.504 (negligible effect; A12<0.5 favors genesis_control_offline)
+  genesis_control_offline vs genesis_chain: A12=0.669 (medium effect; A12<0.5 favors genesis_control_offline)
+  genesis_control_offline vs genesis_dijkstra: genesis_dijkstra has 0 converged runs — A12 undefined
+  genesis_control_offline vs genesis_dijkstra_chain: genesis_dijkstra_chain has 0 converged runs — A12 undefined
+  genesis_control_offline vs genesis_gaussian: A12=0.816 (large effect; A12<0.5 favors genesis_control_offline)
+  genesis_control_offline vs genesis_weights: A12=0.536 (negligible effect; A12<0.5 favors genesis_control_offline)
+  genesis_control_offline vs linear: A12=0.776 (large effect; A12<0.5 favors genesis_control_offline)
+  genesis_control_offline vs relu: A12=0.725 (large effect; A12<0.5 favors genesis_control_offline)
+  genesis_control_offline vs tanh: tanh has 0 converged runs — A12 undefined

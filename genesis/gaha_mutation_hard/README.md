@@ -1,0 +1,14 @@
+No. of SFCRs: 80
+Traffic Scale: 1.0
+Traffic Pattern: Pattern A
+Link Bandwidth: 10
+No. of CPUs: 1
+Qualified Individuals: 1
+Minimum Acceptance Rate: 0.95
+Maximum Latency: 100
+Minimum Qualified Individuals: 1
+Population Size: 20
+Maximum Number of Generations: 100
+Maximum Memory Demand: 1
+Crossover Probability: 1.0
+Evaluation Type: Offline

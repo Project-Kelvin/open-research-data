@@ -13,12 +13,16 @@
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
 | [benns/surrogate](benns/surrogate)                                             | Data generated during the training and evaluation of the BeNNS surrogate model for SFC embedding.          |
 | [benns/latency_benchmarking_2025_07_23](benns/latency_benchmarking_2025_07_23) | Traffic latency data under different CPU, memory and link bandwidth demands.                               |
-| [benns/online](benns/online)                                                   | Data generated during the online 2d-binary encoded evolution experiments.                                  |
-| [benns/hybrid](benns/hybrid)                                                   | Data generated during the hybrid 2d-binary encoded evolution experiments using BeNNS as a surrogate model. |
+| [benns/bega_online](benns/bega_online)                                                   | Data generated during the BEGA Online evolution experiments.                                  |
+| [benns/bega_hybrid](benns/bega_hybrid)                                                   | Data generated during the BEGA Hybrid evolution experiments using BeNNS as a surrogate model. |
 | [benns/analysis](benns/analysis)                                               | Data generated during the analysis of the online and hybrid evolutions.                                    |
 | [benns/genesis_dynamic](benns/genesis_dynamic)                                 | Data generated during the dynamic GENESIS experiments with BeNNS.                                          |
-| [benns/ablated_models](benns/ablated_models)                                   | Data generated during the ablation studies of the BeNNS surrogate model.                                   |
-
+| [benns/ablated_models](benns/ablated_models)                                   | Data generated during the ablation studies of the BeNNS surrogate model.
+| [benns/genesis](benns/genesis)                               | Data generated during the GENESIS experiments with BeNNS.                                          |
+| [benns/inference_latencies](benns/inference_latencies)                               | Data generated during the inference latency experiments with BeNNS.                                          |
+| [benns/rl_dynamic](benns/rl_dynamic)                               | Data generated during the dynamic RL experiments.                                          |
+| [benns/usage_predictors](benns/usage_predictors)                               | Data and models generated during the CPU/memory usage predictor training.                                          |
+| [benns/predictor_hyperparameter_tuning](benns/predictor_hyperparameter_tuning)                               | Data generated during the hyperparameter tuning of the CPU/memory usage predictors.                                          |
 ## Simultaneous Genetic Evolution of Neural Networks for Optimal SFC Embedding
 
 | Data Directory     | Description                                                                                          |

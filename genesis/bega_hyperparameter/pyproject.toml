@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hyperparameter-ga-v2-analysis"
+version = "0.1.0"
+description = "Summaries for hyperparameter GA v2 experiments"
+authors = ["Theviyanthan Krishnamohan"]
+package-mode = false
+packages = [{ include = "analysis" }]
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+scipy = "^1.18.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+analyse = "analysis.analysis:main"

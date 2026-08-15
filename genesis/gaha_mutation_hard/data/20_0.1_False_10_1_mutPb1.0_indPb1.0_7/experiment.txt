@@ -1,0 +1,19 @@
+Experiment Name: 20_0.1_False_10_1_mutPb1.0_indPb1.0_7
+Completed Date: 2026-07-22 06:33:53
+No. of SFCRs: 80
+Traffic Scale: 1.0
+Traffic Pattern: Pattern A
+Link Bandwidth: 10
+No. of CPUs: 1
+Time taken: 51.01
+Qualified Individuals: 4
+Minimum Acceptance Rate: 0.95
+Maximum Latency: 100
+Minimum Qualified Individuals: 1
+Population Size: 20
+Maximum Number of Generations: 100
+Maximum Memory Demand: 1
+Mutation Probability: 1.0
+Gene Mutation Probability: 1.0
+Crossover Probability: 1.0
+Evaluation Type: Offline

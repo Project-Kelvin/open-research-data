@@ -1,0 +1,20 @@
+Experiment Name: 20_0.1_False_10_1_1_milan_19
+Completed Date: 2026-08-04 07:51:27
+No. of SFCRs: 80
+Traffic Scale: 1.0
+Traffic Pattern: Pattern A
+Link Bandwidth: 10
+No. of CPUs: 1
+Time taken: 1332.67
+Qualified Individuals: 1
+Minimum Acceptance Rate: 0.95
+Maximum Latency: 100
+Minimum Qualified Individuals: 1
+Population Size: 20
+Maximum Number of Generations: 100
+Maximum Memory Demand: 10
+Mutation Probability: 0.7
+Gene Mutation Probability: 0.7
+Crossover Probability: 1.0
+Evaluation Type: Hybrid
+Seed: 3673487

@@ -1,0 +1,23 @@
+experiment,algorithm,type,latency
+Basic,BEGA 2000 Hybrid,Offline,35
+Basic,BEGA 2000 Hybrid,Online,32
+Basic,GENESIS Hybrid,Offline,41
+Basic,GENESIS Hybrid,Online,37
+Bandwidth,BEGA 2000 Hybrid,Offline,35
+Bandwidth,BEGA 2000 Hybrid,Online,33
+Bandwidth,GENESIS Hybrid,Offline,39
+Bandwidth,GENESIS Hybrid,Online,37
+Bandwidth,BEGA 100 Hybrid,Offline,35
+Bandwidth,BEGA 100 Hybrid,Online,33
+CPU,BEGA 2000 Hybrid,Offline,40
+CPU,BEGA 2000 Hybrid,Online,35
+CPU,GENESIS Hybrid,Offline,46
+CPU,GENESIS Hybrid,Online,36
+Traffic Pattern,BEGA 2000 Hybrid,Offline,36
+Traffic Pattern,BEGA 2000 Hybrid,Online,33
+Traffic Pattern,GENESIS Hybrid,Offline,42
+Traffic Pattern,GENESIS Hybrid,Online,37
+Traffic Scale,BEGA 2000 Hybrid,Offline,37
+Traffic Scale,BEGA 2000 Hybrid,Online,32
+Traffic Scale,GENESIS Hybrid,Offline,35
+Traffic Scale,GENESIS Hybrid,Online,37

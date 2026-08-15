@@ -1,0 +1,2 @@
+[2026-07-10T10:19:42.933177] experiment=RL_0.2_False_10_2_fat-tree segment=0 acceptance_ratio=0.3125 calculated_delay=18200129.465682972 measured_latency=1451.844655936986 total_execution_time=22660.998153688037 episodes_used=500 converged=false termination_reason=max_episodes_reached
+accepted_sfcrs=10 failed_sfcrs=22 hosts_available=14

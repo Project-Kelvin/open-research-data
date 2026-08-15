@@ -1,0 +1,2 @@
+control,runs,mean_generations,median_generations,max_generations,min_generations,q1_generations,q3_generations,iqr_generations,ci_generations,generations_upper_lower,std_deviation_generations,converged_number,convergence_percent,mean_time_taken,std_deviation_time_taken,q1_time_taken,q3_time_taken,iqr_time_taken,ci_time_taken,time_taken_upper_lower
+control,20,5.25,3.5,14,1,2.75,8.0,5.25,1.73,3.52-6.98,3.7,20,100.0,110.6,79.92,56.84,169.5,112.66,37.4,73.2-148.0

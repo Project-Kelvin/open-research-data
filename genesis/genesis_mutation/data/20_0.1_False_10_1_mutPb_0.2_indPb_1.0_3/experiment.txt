@@ -1,0 +1,24 @@
+Experiment Name: 20_0.1_False_10_1_mutPb_0.2_indPb_1.0_3
+Completed Date: 2026-07-20 08:25:21
+No. of SFCRs: 80
+Traffic Scale: 1.0
+Traffic Pattern: Pattern A
+Link Bandwidth: 10
+No. of CPUs: 1
+Time taken: 447.41
+Qualified Individuals: 1
+Minimum Acceptance Rate: 0.95
+Maximum Latency: 100
+Minimum Qualified Individuals: 1
+Population Size: 20
+Maximum Number of Generations: 100
+Maximum Memory Demand: 1
+Mutation Probability: 0.2
+Gene Mutation Probability: 1.0
+Crossover Probability: 1.0
+Evaluation Type: Offline
+Is VNF CC Disabled: False
+Is Dijkstra Used: False
+Is Gaussian Disabled: False
+Activation Function: sin
+Initial Weight Limit: 6.283185307179586

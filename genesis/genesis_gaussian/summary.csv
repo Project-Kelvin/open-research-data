@@ -1,0 +1,2 @@
+gaussian,runs,mean_generations,median_generations,max_generations,min_generations,q1_generations,q3_generations,iqr_generations,ci_generations,generations_upper_lower,std_deviation_generations,converged_number,convergence_percent,mean_time_taken,std_deviation_time_taken,q1_time_taken,q3_time_taken,iqr_time_taken,ci_time_taken,time_taken_upper_lower
+True,20,14.2,10.5,43,4,5.0,22.25,17.25,5.07,9.13-19.27,10.82,20,100.0,284.66,212.11,104.98,442.72,337.74,99.27,185.39-383.93

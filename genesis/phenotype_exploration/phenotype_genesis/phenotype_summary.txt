@@ -1,0 +1,21 @@
+Algorithm: genesis
+Is Dijkstra: False
+Is Static Chain: False
+Is Gaussian Disabled: False
+Total combinations: 80112
+Total CC combinations: 24
+Total Host combinations: 256
+Total CC-Host combinations: 6144
+Total Host-Links combinations: 3338
+Total searched: 100000
+Total failed: 0
+All Found: False
+All CC Found: True
+All Host Found: True
+All CC-Host Found: True
+All Host-Links Found: False
+Discovered Percentage: 20.56%
+Discovered CC Percentage: 100.0%
+Discovered Host Percentage: 100.0%
+Discovered CC-Host Percentage: 100.0%
+Discovered Host-Links Percentage: 37.06%

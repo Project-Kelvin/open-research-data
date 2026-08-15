@@ -1,0 +1,13 @@
+experiment,segment,acceptance_ratio,calculated_delay,measured_latency,total_execution_time,episodes_used,converged,termination_reason
+RL_0.1_False_10_2,0,1.0,3025.5011471762987,44.749696334782605,875.9085380330216,200,true,converged
+RL_0.1_False_10_2,1,0.0,10000.0,nan,223.90629010801786,200,false,max_episodes_reached
+RL_0.1_False_10_2,2,1.0,2021.3010622247377,38.541096375,680.8423043119838,200,true,converged
+RL_0.1_False_10_2,3,0.0,10000.0,nan,655.9255504370085,200,false,max_episodes_reached
+RL_0.1_False_10_2,4,1.0,4022.208126214671,34.44189171929825,880.6257087210251,200,true,converged
+RL_0.1_False_10_2,5,0.0,10000.0,nan,226.8593371619936,200,false,max_episodes_reached
+RL_0.1_False_10_2,6,1.0,1028.0568178300057,48.37632098611112,681.3304834039882,200,true,converged
+RL_0.1_False_10_2,7,0.0,10000.0,nan,664.4385926880059,200,false,max_episodes_reached
+RL_0.1_False_10_2,8,1.0,3024.4001370752885,41.10212630701755,883.3281156789744,200,true,converged
+RL_0.1_False_10_2,9,0.0,10000.0,nan,231.93331715700333,200,false,max_episodes_reached
+RL_0.1_False_10_2,10,1.0,2024.6040925277682,44.64728544859813,688.8859998889966,200,true,converged
+RL_0.1_False_10_2,11,0.0,10000.0,nan,663.5770731800003,200,false,max_episodes_reached

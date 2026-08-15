@@ -1,0 +1,1800 @@
+2026-08-07 18:54:04.779691: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-08-07 18:54:04.780327: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2026-08-07 18:54:04.783598: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2026-08-07 18:54:04.793848: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1786125244.811423 4135753 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1786125244.816724 4135753 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-08-07 18:54:04.834664: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-08-07 18:54:07.889406: E external/local_xla/xla/stream_executor/cuda/cuda_driver.cc:152] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+Running experiment 15_0.23_False_5_0.5_1_dc in test mode.
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_0
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 14.44 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1025 embedding graphs in 1.42 seconds.
+Latency prediction took 1.54 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.2482074801810086 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Decoded 20 individuals in 15.18 seconds.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1031 embedding graphs in 1.08 seconds.
+Latency prediction took 1.46 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.3196864880155772 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 3 started. Performing genetic operations.
+Offspring generated for generation 3. Evaluating offspring.
+Decoding population for generation 3.
+Decoded 20 individuals in 16.68 seconds.
+Population decoded for generation 3. Starting evaluation.
+Caching surrogate evaluations for generation 3.
+Cached demands for 1044 embedding graphs in 0.81 seconds.
+Latency prediction took 1.48 seconds for generation 3.
+Evaluating population using surrogate for generation 3.
+Finished generation 3 in 1.3116126460954547 seconds.
+Writing Pareto Fronts for generation 3.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 3.
+Number of qualified individuals: 1
+Time taken: 58.02s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_1
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 17.39 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1026 embedding graphs in 0.81 seconds.
+Latency prediction took 1.47 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.3528752159327269 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Decoded 20 individuals in 17.77 seconds.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1032 embedding graphs in 0.84 seconds.
+Latency prediction took 1.56 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.3584457701072097 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 3 started. Performing genetic operations.
+Offspring generated for generation 3. Evaluating offspring.
+Decoding population for generation 3.
+Decoded 20 individuals in 16.26 seconds.
+Population decoded for generation 3. Starting evaluation.
+Caching surrogate evaluations for generation 3.
+Cached demands for 1038 embedding graphs in 1.10 seconds.
+Latency prediction took 1.52 seconds for generation 3.
+Evaluating population using surrogate for generation 3.
+Finished generation 3 in 1.3845484498888254 seconds.
+Writing Pareto Fronts for generation 3.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 4 started. Performing genetic operations.
+Offspring generated for generation 4. Evaluating offspring.
+Decoding population for generation 4.
+Decoded 20 individuals in 16.47 seconds.
+Population decoded for generation 4. Starting evaluation.
+Caching surrogate evaluations for generation 4.
+Cached demands for 1025 embedding graphs in 0.80 seconds.
+Latency prediction took 1.53 seconds for generation 4.
+Evaluating population using surrogate for generation 4.
+Finished generation 4 in 1.4129127389751375 seconds.
+Writing Pareto Fronts for generation 4.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 5 started. Performing genetic operations.
+Offspring generated for generation 5. Evaluating offspring.
+Decoding population for generation 5.
+Decoded 20 individuals in 17.85 seconds.
+Population decoded for generation 5. Starting evaluation.
+Caching surrogate evaluations for generation 5.
+Cached demands for 1009 embedding graphs in 0.82 seconds.
+Latency prediction took 1.56 seconds for generation 5.
+Evaluating population using surrogate for generation 5.
+Finished generation 5 in 1.3900119431782514 seconds.
+Writing Pareto Fronts for generation 5.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 6 started. Performing genetic operations.
+Offspring generated for generation 6. Evaluating offspring.
+Decoding population for generation 6.
+Decoded 20 individuals in 17.43 seconds.
+Population decoded for generation 6. Starting evaluation.
+Caching surrogate evaluations for generation 6.
+Cached demands for 1014 embedding graphs in 1.07 seconds.
+Latency prediction took 1.52 seconds for generation 6.
+Evaluating population using surrogate for generation 6.
+Finished generation 6 in 1.4001882770098746 seconds.
+Writing Pareto Fronts for generation 6.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 6.
+Number of qualified individuals: 1
+Time taken: 126.23s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_2
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 16.99 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1004 embedding graphs in 0.81 seconds.
+Latency prediction took 1.48 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.3439777840394527 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Decoded 20 individuals in 16.60 seconds.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1013 embedding graphs in 0.81 seconds.
+Latency prediction took 1.64 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.426076855044812 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 3 started. Performing genetic operations.
+Offspring generated for generation 3. Evaluating offspring.
+Decoding population for generation 3.
+Decoded 20 individuals in 16.50 seconds.
+Population decoded for generation 3. Starting evaluation.
+Caching surrogate evaluations for generation 3.
+Cached demands for 1045 embedding graphs in 0.82 seconds.
+Latency prediction took 1.52 seconds for generation 3.
+Evaluating population using surrogate for generation 3.
+Finished generation 3 in 1.3989912359975278 seconds.
+Writing Pareto Fronts for generation 3.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 3.
+Number of qualified individuals: 1
+Time taken: 61.41s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_3
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 15.68 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1013 embedding graphs in 0.82 seconds.
+Latency prediction took 1.56 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.3814987149089575 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Decoded 20 individuals in 18.38 seconds.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1046 embedding graphs in 0.84 seconds.
+Latency prediction took 1.52 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.3867096570320427 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 3 started. Performing genetic operations.
+Offspring generated for generation 3. Evaluating offspring.
+Decoding population for generation 3.
+Decoded 20 individuals in 17.50 seconds.
+Population decoded for generation 3. Starting evaluation.
+Caching surrogate evaluations for generation 3.
+Cached demands for 1063 embedding graphs in 0.81 seconds.
+Latency prediction took 1.56 seconds for generation 3.
+Evaluating population using surrogate for generation 3.
+Finished generation 3 in 1.4165645691100508 seconds.
+Writing Pareto Fronts for generation 3.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 3.
+Number of qualified individuals: 1
+Time taken: 62.94s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_4
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 19.03 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1037 embedding graphs in 0.81 seconds.
+Latency prediction took 1.54 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.4562630709260702 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 1.
+Number of qualified individuals: 1
+Time taken: 22.84s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_5
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 19.37 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1026 embedding graphs in 1.08 seconds.
+Latency prediction took 1.55 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.4935534780379385 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Decoded 20 individuals in 17.89 seconds.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1027 embedding graphs in 0.83 seconds.
+Latency prediction took 1.61 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.4056273940950632 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 3 started. Performing genetic operations.
+Offspring generated for generation 3. Evaluating offspring.
+Decoding population for generation 3.
+Decoded 20 individuals in 19.21 seconds.
+Population decoded for generation 3. Starting evaluation.
+Caching surrogate evaluations for generation 3.
+Cached demands for 1040 embedding graphs in 0.82 seconds.
+Latency prediction took 1.55 seconds for generation 3.
+Evaluating population using surrogate for generation 3.
+Finished generation 3 in 1.3966451899614185 seconds.
+Writing Pareto Fronts for generation 3.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 4 started. Performing genetic operations.
+Offspring generated for generation 4. Evaluating offspring.
+Decoding population for generation 4.
+Decoded 20 individuals in 19.74 seconds.
+Population decoded for generation 4. Starting evaluation.
+Caching surrogate evaluations for generation 4.
+Cached demands for 1018 embedding graphs in 0.82 seconds.
+Latency prediction took 1.55 seconds for generation 4.
+Evaluating population using surrogate for generation 4.
+Finished generation 4 in 1.4022498570848256 seconds.
+Writing Pareto Fronts for generation 4.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 5 started. Performing genetic operations.
+Offspring generated for generation 5. Evaluating offspring.
+Decoding population for generation 5.
+Decoded 20 individuals in 17.45 seconds.
+Population decoded for generation 5. Starting evaluation.
+Caching surrogate evaluations for generation 5.
+Cached demands for 1023 embedding graphs in 0.83 seconds.
+Latency prediction took 1.53 seconds for generation 5.
+Evaluating population using surrogate for generation 5.
+Finished generation 5 in 1.40879380190745 seconds.
+Writing Pareto Fronts for generation 5.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 6 started. Performing genetic operations.
+Offspring generated for generation 6. Evaluating offspring.
+Decoding population for generation 6.
+Decoded 20 individuals in 18.61 seconds.
+Population decoded for generation 6. Starting evaluation.
+Caching surrogate evaluations for generation 6.
+Cached demands for 1006 embedding graphs in 1.09 seconds.
+Latency prediction took 1.53 seconds for generation 6.
+Evaluating population using surrogate for generation 6.
+Finished generation 6 in 1.3845163770020008 seconds.
+Writing Pareto Fronts for generation 6.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 7 started. Performing genetic operations.
+Offspring generated for generation 7. Evaluating offspring.
+Decoding population for generation 7.
+Decoded 20 individuals in 19.15 seconds.
+Population decoded for generation 7. Starting evaluation.
+Caching surrogate evaluations for generation 7.
+Cached demands for 1015 embedding graphs in 0.83 seconds.
+Latency prediction took 1.56 seconds for generation 7.
+Evaluating population using surrogate for generation 7.
+Finished generation 7 in 1.444044060073793 seconds.
+Writing Pareto Fronts for generation 7.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 8 started. Performing genetic operations.
+Offspring generated for generation 8. Evaluating offspring.
+Decoding population for generation 8.
+Decoded 20 individuals in 18.39 seconds.
+Population decoded for generation 8. Starting evaluation.
+Caching surrogate evaluations for generation 8.
+Cached demands for 1015 embedding graphs in 0.83 seconds.
+Latency prediction took 1.56 seconds for generation 8.
+Evaluating population using surrogate for generation 8.
+Finished generation 8 in 1.422728826990351 seconds.
+Writing Pareto Fronts for generation 8.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 9 started. Performing genetic operations.
+Offspring generated for generation 9. Evaluating offspring.
+Decoding population for generation 9.
+Decoded 20 individuals in 18.80 seconds.
+Population decoded for generation 9. Starting evaluation.
+Caching surrogate evaluations for generation 9.
+Cached demands for 1032 embedding graphs in 0.83 seconds.
+Latency prediction took 1.57 seconds for generation 9.
+Evaluating population using surrogate for generation 9.
+Finished generation 9 in 1.3973771079909056 seconds.
+Writing Pareto Fronts for generation 9.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 10 started. Performing genetic operations.
+Offspring generated for generation 10. Evaluating offspring.
+Decoding population for generation 10.
+Decoded 20 individuals in 19.49 seconds.
+Population decoded for generation 10. Starting evaluation.
+Caching surrogate evaluations for generation 10.
+Cached demands for 1022 embedding graphs in 0.82 seconds.
+Latency prediction took 1.53 seconds for generation 10.
+Evaluating population using surrogate for generation 10.
+Finished generation 10 in 1.4097709250636399 seconds.
+Writing Pareto Fronts for generation 10.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 11 started. Performing genetic operations.
+Offspring generated for generation 11. Evaluating offspring.
+Decoding population for generation 11.
+Decoded 20 individuals in 17.79 seconds.
+Population decoded for generation 11. Starting evaluation.
+Caching surrogate evaluations for generation 11.
+Cached demands for 1017 embedding graphs in 1.11 seconds.
+Latency prediction took 1.60 seconds for generation 11.
+Evaluating population using surrogate for generation 11.
+Finished generation 11 in 1.4437695229426026 seconds.
+Writing Pareto Fronts for generation 11.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 12 started. Performing genetic operations.
+Offspring generated for generation 12. Evaluating offspring.
+Decoding population for generation 12.
+Decoded 20 individuals in 17.86 seconds.
+Population decoded for generation 12. Starting evaluation.
+Caching surrogate evaluations for generation 12.
+Cached demands for 1009 embedding graphs in 0.82 seconds.
+Latency prediction took 1.54 seconds for generation 12.
+Evaluating population using surrogate for generation 12.
+Finished generation 12 in 1.3999940941575915 seconds.
+Writing Pareto Fronts for generation 12.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 12.
+Number of qualified individuals: 1
+Time taken: 270.42s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_6
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 18.68 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1004 embedding graphs in 0.80 seconds.
+Latency prediction took 1.57 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.4643279970623553 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Decoded 20 individuals in 16.90 seconds.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1027 embedding graphs in 0.87 seconds.
+Latency prediction took 1.61 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.417796554043889 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 3 started. Performing genetic operations.
+Offspring generated for generation 3. Evaluating offspring.
+Decoding population for generation 3.
+Decoded 20 individuals in 18.45 seconds.
+Population decoded for generation 3. Starting evaluation.
+Caching surrogate evaluations for generation 3.
+Cached demands for 1015 embedding graphs in 0.83 seconds.
+Latency prediction took 1.50 seconds for generation 3.
+Evaluating population using surrogate for generation 3.
+Finished generation 3 in 1.4078156319446862 seconds.
+Writing Pareto Fronts for generation 3.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 4 started. Performing genetic operations.
+Offspring generated for generation 4. Evaluating offspring.
+Decoding population for generation 4.
+Decoded 20 individuals in 19.39 seconds.
+Population decoded for generation 4. Starting evaluation.
+Caching surrogate evaluations for generation 4.
+Cached demands for 1021 embedding graphs in 0.82 seconds.
+Latency prediction took 1.57 seconds for generation 4.
+Evaluating population using surrogate for generation 4.
+Finished generation 4 in 1.407907976070419 seconds.
+Writing Pareto Fronts for generation 4.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 5 started. Performing genetic operations.
+Offspring generated for generation 5. Evaluating offspring.
+Decoding population for generation 5.
+Decoded 20 individuals in 20.64 seconds.
+Population decoded for generation 5. Starting evaluation.
+Caching surrogate evaluations for generation 5.
+Cached demands for 1022 embedding graphs in 0.81 seconds.
+Latency prediction took 1.60 seconds for generation 5.
+Evaluating population using surrogate for generation 5.
+Finished generation 5 in 1.397314198082313 seconds.
+Writing Pareto Fronts for generation 5.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 6 started. Performing genetic operations.
+Offspring generated for generation 6. Evaluating offspring.
+Decoding population for generation 6.
+Decoded 20 individuals in 18.43 seconds.
+Population decoded for generation 6. Starting evaluation.
+Caching surrogate evaluations for generation 6.
+Cached demands for 1016 embedding graphs in 0.81 seconds.
+Latency prediction took 1.60 seconds for generation 6.
+Evaluating population using surrogate for generation 6.
+Finished generation 6 in 1.4361641770228744 seconds.
+Writing Pareto Fronts for generation 6.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 7 started. Performing genetic operations.
+Offspring generated for generation 7. Evaluating offspring.
+Decoding population for generation 7.
+Decoded 20 individuals in 19.02 seconds.
+Population decoded for generation 7. Starting evaluation.
+Caching surrogate evaluations for generation 7.
+Cached demands for 1041 embedding graphs in 1.09 seconds.
+Latency prediction took 1.58 seconds for generation 7.
+Evaluating population using surrogate for generation 7.
+Finished generation 7 in 1.4245613228995353 seconds.
+Writing Pareto Fronts for generation 7.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 8 started. Performing genetic operations.
+Offspring generated for generation 8. Evaluating offspring.
+Decoding population for generation 8.
+Decoded 20 individuals in 20.20 seconds.
+Population decoded for generation 8. Starting evaluation.
+Caching surrogate evaluations for generation 8.
+Cached demands for 1039 embedding graphs in 0.82 seconds.
+Latency prediction took 1.58 seconds for generation 8.
+Evaluating population using surrogate for generation 8.
+Finished generation 8 in 1.4405790138989687 seconds.
+Writing Pareto Fronts for generation 8.
+Qualified Individuals: 2/1
+Finished the evolution of weights using surrogate at generation 8.
+Number of qualified individuals: 2
+Time taken: 182.75s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_7
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 16.84 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1026 embedding graphs in 0.81 seconds.
+Latency prediction took 1.59 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.4236524859443307 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Decoded 20 individuals in 16.35 seconds.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1010 embedding graphs in 0.80 seconds.
+Latency prediction took 1.61 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.4555881370324641 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 3 started. Performing genetic operations.
+Offspring generated for generation 3. Evaluating offspring.
+Decoding population for generation 3.
+Decoded 20 individuals in 16.57 seconds.
+Population decoded for generation 3. Starting evaluation.
+Caching surrogate evaluations for generation 3.
+Cached demands for 1040 embedding graphs in 0.80 seconds.
+Latency prediction took 1.64 seconds for generation 3.
+Evaluating population using surrogate for generation 3.
+Finished generation 3 in 1.5381917038466781 seconds.
+Writing Pareto Fronts for generation 3.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 4 started. Performing genetic operations.
+Offspring generated for generation 4. Evaluating offspring.
+Decoding population for generation 4.
+Decoded 20 individuals in 17.50 seconds.
+Population decoded for generation 4. Starting evaluation.
+Caching surrogate evaluations for generation 4.
+Cached demands for 1036 embedding graphs in 0.82 seconds.
+Latency prediction took 1.70 seconds for generation 4.
+Evaluating population using surrogate for generation 4.
+Finished generation 4 in 1.4393596961162984 seconds.
+Writing Pareto Fronts for generation 4.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 5 started. Performing genetic operations.
+Offspring generated for generation 5. Evaluating offspring.
+Decoding population for generation 5.
+Decoded 20 individuals in 17.66 seconds.
+Population decoded for generation 5. Starting evaluation.
+Caching surrogate evaluations for generation 5.
+Cached demands for 999 embedding graphs in 0.81 seconds.
+Latency prediction took 1.59 seconds for generation 5.
+Evaluating population using surrogate for generation 5.
+Finished generation 5 in 1.4091425680089742 seconds.
+Writing Pareto Fronts for generation 5.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 6 started. Performing genetic operations.
+Offspring generated for generation 6. Evaluating offspring.
+Decoding population for generation 6.
+Decoded 20 individuals in 17.19 seconds.
+Population decoded for generation 6. Starting evaluation.
+Caching surrogate evaluations for generation 6.
+Cached demands for 1030 embedding graphs in 0.80 seconds.
+Latency prediction took 1.56 seconds for generation 6.
+Evaluating population using surrogate for generation 6.
+Finished generation 6 in 1.4351768728811294 seconds.
+Writing Pareto Fronts for generation 6.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 7 started. Performing genetic operations.
+Offspring generated for generation 7. Evaluating offspring.
+Decoding population for generation 7.
+Decoded 20 individuals in 17.19 seconds.
+Population decoded for generation 7. Starting evaluation.
+Caching surrogate evaluations for generation 7.
+Cached demands for 1018 embedding graphs in 1.07 seconds.
+Latency prediction took 1.59 seconds for generation 7.
+Evaluating population using surrogate for generation 7.
+Finished generation 7 in 1.4357666990254074 seconds.
+Writing Pareto Fronts for generation 7.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 8 started. Performing genetic operations.
+Offspring generated for generation 8. Evaluating offspring.
+Decoding population for generation 8.
+Decoded 20 individuals in 17.10 seconds.
+Population decoded for generation 8. Starting evaluation.
+Caching surrogate evaluations for generation 8.
+Cached demands for 1034 embedding graphs in 0.79 seconds.
+Latency prediction took 1.59 seconds for generation 8.
+Evaluating population using surrogate for generation 8.
+Finished generation 8 in 1.46128706401214 seconds.
+Writing Pareto Fronts for generation 8.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 9 started. Performing genetic operations.
+Offspring generated for generation 9. Evaluating offspring.
+Decoding population for generation 9.
+Decoded 20 individuals in 15.97 seconds.
+Population decoded for generation 9. Starting evaluation.
+Caching surrogate evaluations for generation 9.
+Cached demands for 1016 embedding graphs in 0.83 seconds.
+Latency prediction took 1.58 seconds for generation 9.
+Evaluating population using surrogate for generation 9.
+Finished generation 9 in 1.4215043589938432 seconds.
+Writing Pareto Fronts for generation 9.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 10 started. Performing genetic operations.
+Offspring generated for generation 10. Evaluating offspring.
+Decoding population for generation 10.
+Decoded 20 individuals in 16.42 seconds.
+Population decoded for generation 10. Starting evaluation.
+Caching surrogate evaluations for generation 10.
+Cached demands for 1052 embedding graphs in 1.08 seconds.
+Latency prediction took 1.65 seconds for generation 10.
+Evaluating population using surrogate for generation 10.
+Finished generation 10 in 1.469211681978777 seconds.
+Writing Pareto Fronts for generation 10.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 11 started. Performing genetic operations.
+Offspring generated for generation 11. Evaluating offspring.
+Decoding population for generation 11.
+Decoded 20 individuals in 16.02 seconds.
+Population decoded for generation 11. Starting evaluation.
+Caching surrogate evaluations for generation 11.
+Cached demands for 1015 embedding graphs in 0.81 seconds.
+Latency prediction took 1.64 seconds for generation 11.
+Evaluating population using surrogate for generation 11.
+Finished generation 11 in 1.6261308179236948 seconds.
+Writing Pareto Fronts for generation 11.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 12 started. Performing genetic operations.
+Offspring generated for generation 12. Evaluating offspring.
+Decoding population for generation 12.
+Decoded 20 individuals in 17.38 seconds.
+Population decoded for generation 12. Starting evaluation.
+Caching surrogate evaluations for generation 12.
+Cached demands for 1032 embedding graphs in 0.80 seconds.
+Latency prediction took 1.57 seconds for generation 12.
+Evaluating population using surrogate for generation 12.
+Finished generation 12 in 1.4800977280829102 seconds.
+Writing Pareto Fronts for generation 12.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 13 started. Performing genetic operations.
+Offspring generated for generation 13. Evaluating offspring.
+Decoding population for generation 13.
+Decoded 20 individuals in 18.63 seconds.
+Population decoded for generation 13. Starting evaluation.
+Caching surrogate evaluations for generation 13.
+Cached demands for 1035 embedding graphs in 0.82 seconds.
+Latency prediction took 1.63 seconds for generation 13.
+Evaluating population using surrogate for generation 13.
+Finished generation 13 in 1.4759363448247313 seconds.
+Writing Pareto Fronts for generation 13.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 14 started. Performing genetic operations.
+Offspring generated for generation 14. Evaluating offspring.
+Decoding population for generation 14.
+Decoded 20 individuals in 17.32 seconds.
+Population decoded for generation 14. Starting evaluation.
+Caching surrogate evaluations for generation 14.
+Cached demands for 1032 embedding graphs in 0.80 seconds.
+Latency prediction took 1.62 seconds for generation 14.
+Evaluating population using surrogate for generation 14.
+Finished generation 14 in 1.5008714469149709 seconds.
+Writing Pareto Fronts for generation 14.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 15 started. Performing genetic operations.
+Offspring generated for generation 15. Evaluating offspring.
+Decoding population for generation 15.
+Decoded 20 individuals in 17.42 seconds.
+Population decoded for generation 15. Starting evaluation.
+Caching surrogate evaluations for generation 15.
+Cached demands for 1027 embedding graphs in 0.81 seconds.
+Latency prediction took 1.66 seconds for generation 15.
+Evaluating population using surrogate for generation 15.
+Finished generation 15 in 1.4698366660159081 seconds.
+Writing Pareto Fronts for generation 15.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 16 started. Performing genetic operations.
+Offspring generated for generation 16. Evaluating offspring.
+Decoding population for generation 16.
+Decoded 20 individuals in 18.46 seconds.
+Population decoded for generation 16. Starting evaluation.
+Caching surrogate evaluations for generation 16.
+Cached demands for 1018 embedding graphs in 0.81 seconds.
+Latency prediction took 1.63 seconds for generation 16.
+Evaluating population using surrogate for generation 16.
+Finished generation 16 in 1.4110319798346609 seconds.
+Writing Pareto Fronts for generation 16.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 17 started. Performing genetic operations.
+Offspring generated for generation 17. Evaluating offspring.
+Decoding population for generation 17.
+Decoded 20 individuals in 16.22 seconds.
+Population decoded for generation 17. Starting evaluation.
+Caching surrogate evaluations for generation 17.
+Cached demands for 1038 embedding graphs in 0.83 seconds.
+Latency prediction took 1.57 seconds for generation 17.
+Evaluating population using surrogate for generation 17.
+Finished generation 17 in 1.4505662438459694 seconds.
+Writing Pareto Fronts for generation 17.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 17.
+Number of qualified individuals: 1
+Time taken: 357.23s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_8
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 18.13 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1027 embedding graphs in 1.10 seconds.
+Latency prediction took 1.57 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.4803093280643225 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Decoded 20 individuals in 17.14 seconds.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1028 embedding graphs in 0.83 seconds.
+Latency prediction took 1.53 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.5217142950277776 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 3 started. Performing genetic operations.
+Offspring generated for generation 3. Evaluating offspring.
+Decoding population for generation 3.
+Decoded 20 individuals in 17.64 seconds.
+Population decoded for generation 3. Starting evaluation.
+Caching surrogate evaluations for generation 3.
+Cached demands for 1045 embedding graphs in 0.82 seconds.
+Latency prediction took 1.59 seconds for generation 3.
+Evaluating population using surrogate for generation 3.
+Finished generation 3 in 1.435646136989817 seconds.
+Writing Pareto Fronts for generation 3.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 4 started. Performing genetic operations.
+Offspring generated for generation 4. Evaluating offspring.
+Decoding population for generation 4.
+Decoded 20 individuals in 16.62 seconds.
+Population decoded for generation 4. Starting evaluation.
+Caching surrogate evaluations for generation 4.
+Cached demands for 1019 embedding graphs in 0.80 seconds.
+Latency prediction took 1.56 seconds for generation 4.
+Evaluating population using surrogate for generation 4.
+Finished generation 4 in 1.4254005898255855 seconds.
+Writing Pareto Fronts for generation 4.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 5 started. Performing genetic operations.
+Offspring generated for generation 5. Evaluating offspring.
+Decoding population for generation 5.
+Decoded 20 individuals in 15.26 seconds.
+Population decoded for generation 5. Starting evaluation.
+Caching surrogate evaluations for generation 5.
+Cached demands for 1014 embedding graphs in 0.81 seconds.
+Latency prediction took 1.60 seconds for generation 5.
+Evaluating population using surrogate for generation 5.
+Finished generation 5 in 1.445869998075068 seconds.
+Writing Pareto Fronts for generation 5.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 6 started. Performing genetic operations.
+Offspring generated for generation 6. Evaluating offspring.
+Decoding population for generation 6.
+Decoded 20 individuals in 16.57 seconds.
+Population decoded for generation 6. Starting evaluation.
+Caching surrogate evaluations for generation 6.
+Cached demands for 1028 embedding graphs in 0.83 seconds.
+Latency prediction took 1.60 seconds for generation 6.
+Evaluating population using surrogate for generation 6.
+Finished generation 6 in 1.4998347728978842 seconds.
+Writing Pareto Fronts for generation 6.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 6.
+Number of qualified individuals: 1
+Time taken: 124.95s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_9
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 18.99 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1020 embedding graphs in 0.81 seconds.
+Latency prediction took 1.57 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.4891853220760822 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Decoded 20 individuals in 16.31 seconds.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1034 embedding graphs in 0.81 seconds.
+Latency prediction took 1.59 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.4940017729531974 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 3 started. Performing genetic operations.
+Offspring generated for generation 3. Evaluating offspring.
+Decoding population for generation 3.
+Decoded 20 individuals in 17.61 seconds.
+Population decoded for generation 3. Starting evaluation.
+Caching surrogate evaluations for generation 3.
+Cached demands for 1011 embedding graphs in 1.09 seconds.
+Latency prediction took 1.54 seconds for generation 3.
+Evaluating population using surrogate for generation 3.
+Finished generation 3 in 1.4245829798746854 seconds.
+Writing Pareto Fronts for generation 3.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 4 started. Performing genetic operations.
+Offspring generated for generation 4. Evaluating offspring.
+Decoding population for generation 4.
+Decoded 20 individuals in 16.80 seconds.
+Population decoded for generation 4. Starting evaluation.
+Caching surrogate evaluations for generation 4.
+Cached demands for 1004 embedding graphs in 0.79 seconds.
+Latency prediction took 1.61 seconds for generation 4.
+Evaluating population using surrogate for generation 4.
+Finished generation 4 in 1.5521604381501675 seconds.
+Writing Pareto Fronts for generation 4.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 5 started. Performing genetic operations.
+Offspring generated for generation 5. Evaluating offspring.
+Decoding population for generation 5.
+Decoded 20 individuals in 16.54 seconds.
+Population decoded for generation 5. Starting evaluation.
+Caching surrogate evaluations for generation 5.
+Cached demands for 1000 embedding graphs in 0.82 seconds.
+Latency prediction took 1.67 seconds for generation 5.
+Evaluating population using surrogate for generation 5.
+Finished generation 5 in 1.434936722042039 seconds.
+Writing Pareto Fronts for generation 5.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 6 started. Performing genetic operations.
+Offspring generated for generation 6. Evaluating offspring.
+Decoding population for generation 6.
+Decoded 20 individuals in 19.17 seconds.
+Population decoded for generation 6. Starting evaluation.
+Caching surrogate evaluations for generation 6.
+Cached demands for 1031 embedding graphs in 0.82 seconds.
+Latency prediction took 1.62 seconds for generation 6.
+Evaluating population using surrogate for generation 6.
+Finished generation 6 in 1.5400551771745086 seconds.
+Writing Pareto Fronts for generation 6.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 7 started. Performing genetic operations.
+Offspring generated for generation 7. Evaluating offspring.
+Decoding population for generation 7.
+Decoded 20 individuals in 17.27 seconds.
+Population decoded for generation 7. Starting evaluation.
+Caching surrogate evaluations for generation 7.
+Cached demands for 1022 embedding graphs in 0.84 seconds.
+Latency prediction took 1.58 seconds for generation 7.
+Evaluating population using surrogate for generation 7.
+Finished generation 7 in 1.4274332879576832 seconds.
+Writing Pareto Fronts for generation 7.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 8 started. Performing genetic operations.
+Offspring generated for generation 8. Evaluating offspring.
+Decoding population for generation 8.
+Decoded 20 individuals in 17.95 seconds.
+Population decoded for generation 8. Starting evaluation.
+Caching surrogate evaluations for generation 8.
+Cached demands for 1039 embedding graphs in 1.09 seconds.
+Latency prediction took 1.65 seconds for generation 8.
+Evaluating population using surrogate for generation 8.
+Finished generation 8 in 1.4946098530199379 seconds.
+Writing Pareto Fronts for generation 8.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 9 started. Performing genetic operations.
+Offspring generated for generation 9. Evaluating offspring.
+Decoding population for generation 9.
+Decoded 20 individuals in 18.35 seconds.
+Population decoded for generation 9. Starting evaluation.
+Caching surrogate evaluations for generation 9.
+Cached demands for 1018 embedding graphs in 0.81 seconds.
+Latency prediction took 1.62 seconds for generation 9.
+Evaluating population using surrogate for generation 9.
+Finished generation 9 in 1.5099145090207458 seconds.
+Writing Pareto Fronts for generation 9.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 10 started. Performing genetic operations.
+Offspring generated for generation 10. Evaluating offspring.
+Decoding population for generation 10.
+Decoded 20 individuals in 16.75 seconds.
+Population decoded for generation 10. Starting evaluation.
+Caching surrogate evaluations for generation 10.
+Cached demands for 1001 embedding graphs in 0.82 seconds.
+Latency prediction took 1.64 seconds for generation 10.
+Evaluating population using surrogate for generation 10.
+Finished generation 10 in 1.4932209211401641 seconds.
+Writing Pareto Fronts for generation 10.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 11 started. Performing genetic operations.
+Offspring generated for generation 11. Evaluating offspring.
+Decoding population for generation 11.
+Decoded 20 individuals in 17.96 seconds.
+Population decoded for generation 11. Starting evaluation.
+Caching surrogate evaluations for generation 11.
+Cached demands for 1027 embedding graphs in 1.10 seconds.
+Latency prediction took 1.62 seconds for generation 11.
+Evaluating population using surrogate for generation 11.
+Finished generation 11 in 1.4641454708762467 seconds.
+Writing Pareto Fronts for generation 11.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 12 started. Performing genetic operations.
+Offspring generated for generation 12. Evaluating offspring.
+Decoding population for generation 12.
+Decoded 20 individuals in 18.95 seconds.
+Population decoded for generation 12. Starting evaluation.
+Caching surrogate evaluations for generation 12.
+Cached demands for 1025 embedding graphs in 0.83 seconds.
+Latency prediction took 1.60 seconds for generation 12.
+Evaluating population using surrogate for generation 12.
+Finished generation 12 in 1.4867850930895656 seconds.
+Writing Pareto Fronts for generation 12.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 13 started. Performing genetic operations.
+Offspring generated for generation 13. Evaluating offspring.
+Decoding population for generation 13.
+Decoded 20 individuals in 18.70 seconds.
+Population decoded for generation 13. Starting evaluation.
+Caching surrogate evaluations for generation 13.
+Cached demands for 1020 embedding graphs in 0.81 seconds.
+Latency prediction took 1.66 seconds for generation 13.
+Evaluating population using surrogate for generation 13.
+Finished generation 13 in 1.4728503939695656 seconds.
+Writing Pareto Fronts for generation 13.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 13.
+Number of qualified individuals: 1
+Time taken: 283.32s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_10
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 17.79 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1022 embedding graphs in 0.80 seconds.
+Latency prediction took 1.60 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.5086944880895317 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Decoded 20 individuals in 16.84 seconds.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1041 embedding graphs in 0.80 seconds.
+Latency prediction took 1.64 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.4978609669487923 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 3 started. Performing genetic operations.
+Offspring generated for generation 3. Evaluating offspring.
+Decoding population for generation 3.
+Decoded 20 individuals in 18.31 seconds.
+Population decoded for generation 3. Starting evaluation.
+Caching surrogate evaluations for generation 3.
+Cached demands for 1035 embedding graphs in 0.83 seconds.
+Latency prediction took 1.64 seconds for generation 3.
+Evaluating population using surrogate for generation 3.
+Finished generation 3 in 1.4357470949180424 seconds.
+Writing Pareto Fronts for generation 3.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 4 started. Performing genetic operations.
+Offspring generated for generation 4. Evaluating offspring.
+Decoding population for generation 4.
+Decoded 20 individuals in 18.16 seconds.
+Population decoded for generation 4. Starting evaluation.
+Caching surrogate evaluations for generation 4.
+Cached demands for 1054 embedding graphs in 0.81 seconds.
+Latency prediction took 1.62 seconds for generation 4.
+Evaluating population using surrogate for generation 4.
+Finished generation 4 in 1.450800440972671 seconds.
+Writing Pareto Fronts for generation 4.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 5 started. Performing genetic operations.
+Offspring generated for generation 5. Evaluating offspring.
+Decoding population for generation 5.
+Decoded 20 individuals in 16.59 seconds.
+Population decoded for generation 5. Starting evaluation.
+Caching surrogate evaluations for generation 5.
+Cached demands for 1038 embedding graphs in 0.82 seconds.
+Latency prediction took 1.57 seconds for generation 5.
+Evaluating population using surrogate for generation 5.
+Finished generation 5 in 1.3967591039836407 seconds.
+Writing Pareto Fronts for generation 5.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 6 started. Performing genetic operations.
+Offspring generated for generation 6. Evaluating offspring.
+Decoding population for generation 6.
+Decoded 20 individuals in 17.43 seconds.
+Population decoded for generation 6. Starting evaluation.
+Caching surrogate evaluations for generation 6.
+Cached demands for 1054 embedding graphs in 1.07 seconds.
+Latency prediction took 1.59 seconds for generation 6.
+Evaluating population using surrogate for generation 6.
+Finished generation 6 in 1.473209478892386 seconds.
+Writing Pareto Fronts for generation 6.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 6.
+Number of qualified individuals: 1
+Time taken: 128.79s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_11
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 18.40 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1013 embedding graphs in 0.83 seconds.
+Latency prediction took 1.59 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.421961366897449 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Decoded 20 individuals in 16.88 seconds.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1010 embedding graphs in 0.82 seconds.
+Latency prediction took 1.58 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.4837992449756712 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 3 started. Performing genetic operations.
+Offspring generated for generation 3. Evaluating offspring.
+Decoding population for generation 3.
+Decoded 20 individuals in 17.13 seconds.
+Population decoded for generation 3. Starting evaluation.
+Caching surrogate evaluations for generation 3.
+Cached demands for 1039 embedding graphs in 0.81 seconds.
+Latency prediction took 1.65 seconds for generation 3.
+Evaluating population using surrogate for generation 3.
+Finished generation 3 in 1.4924440870527178 seconds.
+Writing Pareto Fronts for generation 3.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 4 started. Performing genetic operations.
+Offspring generated for generation 4. Evaluating offspring.
+Decoding population for generation 4.
+Decoded 20 individuals in 17.14 seconds.
+Population decoded for generation 4. Starting evaluation.
+Caching surrogate evaluations for generation 4.
+Cached demands for 1018 embedding graphs in 0.81 seconds.
+Latency prediction took 1.64 seconds for generation 4.
+Evaluating population using surrogate for generation 4.
+Finished generation 4 in 1.4614879249129444 seconds.
+Writing Pareto Fronts for generation 4.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 5 started. Performing genetic operations.
+Offspring generated for generation 5. Evaluating offspring.
+Decoding population for generation 5.
+Decoded 20 individuals in 16.41 seconds.
+Population decoded for generation 5. Starting evaluation.
+Caching surrogate evaluations for generation 5.
+Cached demands for 1032 embedding graphs in 0.82 seconds.
+Latency prediction took 1.60 seconds for generation 5.
+Evaluating population using surrogate for generation 5.
+Finished generation 5 in 1.4739386460278183 seconds.
+Writing Pareto Fronts for generation 5.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 6 started. Performing genetic operations.
+Offspring generated for generation 6. Evaluating offspring.
+Decoding population for generation 6.
+Decoded 20 individuals in 18.07 seconds.
+Population decoded for generation 6. Starting evaluation.
+Caching surrogate evaluations for generation 6.
+Cached demands for 1033 embedding graphs in 0.82 seconds.
+Latency prediction took 1.64 seconds for generation 6.
+Evaluating population using surrogate for generation 6.
+Finished generation 6 in 1.486094162100926 seconds.
+Writing Pareto Fronts for generation 6.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 7 started. Performing genetic operations.
+Offspring generated for generation 7. Evaluating offspring.
+Decoding population for generation 7.
+Decoded 20 individuals in 18.52 seconds.
+Population decoded for generation 7. Starting evaluation.
+Caching surrogate evaluations for generation 7.
+Cached demands for 1029 embedding graphs in 0.82 seconds.
+Latency prediction took 1.68 seconds for generation 7.
+Evaluating population using surrogate for generation 7.
+Finished generation 7 in 1.5013589221052825 seconds.
+Writing Pareto Fronts for generation 7.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 7.
+Number of qualified individuals: 1
+Time taken: 150.15s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_12
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 16.48 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1031 embedding graphs in 1.06 seconds.
+Latency prediction took 1.59 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.5019909979309887 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 1.
+Number of qualified individuals: 1
+Time taken: 20.64s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_13
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 17.98 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1034 embedding graphs in 0.84 seconds.
+Latency prediction took 1.61 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.477376330876723 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Decoded 20 individuals in 15.26 seconds.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1035 embedding graphs in 0.83 seconds.
+Latency prediction took 1.59 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.4570637948345393 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 2.
+Number of qualified individuals: 1
+Time taken: 41.07s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_14
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 16.89 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1019 embedding graphs in 0.83 seconds.
+Latency prediction took 1.67 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.4384726900607347 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 1.
+Number of qualified individuals: 1
+Time taken: 20.85s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_15
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 17.18 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1025 embedding graphs in 0.85 seconds.
+Latency prediction took 1.63 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.4755548420362175 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Decoded 20 individuals in 15.72 seconds.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1037 embedding graphs in 1.12 seconds.
+Latency prediction took 1.58 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.45970201282762 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 3 started. Performing genetic operations.
+Offspring generated for generation 3. Evaluating offspring.
+Decoding population for generation 3.
+Decoded 20 individuals in 15.54 seconds.
+Population decoded for generation 3. Starting evaluation.
+Caching surrogate evaluations for generation 3.
+Cached demands for 1017 embedding graphs in 0.81 seconds.
+Latency prediction took 1.56 seconds for generation 3.
+Evaluating population using surrogate for generation 3.
+Finished generation 3 in 1.4050266069825739 seconds.
+Writing Pareto Fronts for generation 3.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 4 started. Performing genetic operations.
+Offspring generated for generation 4. Evaluating offspring.
+Decoding population for generation 4.
+Decoded 20 individuals in 16.31 seconds.
+Population decoded for generation 4. Starting evaluation.
+Caching surrogate evaluations for generation 4.
+Cached demands for 1035 embedding graphs in 0.82 seconds.
+Latency prediction took 1.62 seconds for generation 4.
+Evaluating population using surrogate for generation 4.
+Finished generation 4 in 1.450805369997397 seconds.
+Writing Pareto Fronts for generation 4.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 5 started. Performing genetic operations.
+Offspring generated for generation 5. Evaluating offspring.
+Decoding population for generation 5.
+Decoded 20 individuals in 17.98 seconds.
+Population decoded for generation 5. Starting evaluation.
+Caching surrogate evaluations for generation 5.
+Cached demands for 1042 embedding graphs in 0.81 seconds.
+Latency prediction took 1.60 seconds for generation 5.
+Evaluating population using surrogate for generation 5.
+Finished generation 5 in 1.4109292910434306 seconds.
+Writing Pareto Fronts for generation 5.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 6 started. Performing genetic operations.
+Offspring generated for generation 6. Evaluating offspring.
+Decoding population for generation 6.
+Decoded 20 individuals in 17.15 seconds.
+Population decoded for generation 6. Starting evaluation.
+Caching surrogate evaluations for generation 6.
+Cached demands for 1027 embedding graphs in 0.80 seconds.
+Latency prediction took 1.61 seconds for generation 6.
+Evaluating population using surrogate for generation 6.
+Finished generation 6 in 1.4962247791700065 seconds.
+Writing Pareto Fronts for generation 6.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 7 started. Performing genetic operations.
+Offspring generated for generation 7. Evaluating offspring.
+Decoding population for generation 7.
+Decoded 20 individuals in 17.59 seconds.
+Population decoded for generation 7. Starting evaluation.
+Caching surrogate evaluations for generation 7.
+Cached demands for 1006 embedding graphs in 0.80 seconds.
+Latency prediction took 1.60 seconds for generation 7.
+Evaluating population using surrogate for generation 7.
+Finished generation 7 in 1.4790921690873802 seconds.
+Writing Pareto Fronts for generation 7.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 8 started. Performing genetic operations.
+Offspring generated for generation 8. Evaluating offspring.
+Decoding population for generation 8.
+Decoded 20 individuals in 17.70 seconds.
+Population decoded for generation 8. Starting evaluation.
+Caching surrogate evaluations for generation 8.
+Cached demands for 1043 embedding graphs in 0.82 seconds.
+Latency prediction took 1.63 seconds for generation 8.
+Evaluating population using surrogate for generation 8.
+Finished generation 8 in 1.5019961199723184 seconds.
+Writing Pareto Fronts for generation 8.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 9 started. Performing genetic operations.
+Offspring generated for generation 9. Evaluating offspring.
+Decoding population for generation 9.
+Decoded 20 individuals in 17.32 seconds.
+Population decoded for generation 9. Starting evaluation.
+Caching surrogate evaluations for generation 9.
+Cached demands for 1034 embedding graphs in 0.82 seconds.
+Latency prediction took 1.60 seconds for generation 9.
+Evaluating population using surrogate for generation 9.
+Finished generation 9 in 1.469188333954662 seconds.
+Writing Pareto Fronts for generation 9.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 10 started. Performing genetic operations.
+Offspring generated for generation 10. Evaluating offspring.
+Decoding population for generation 10.
+Decoded 20 individuals in 18.16 seconds.
+Population decoded for generation 10. Starting evaluation.
+Caching surrogate evaluations for generation 10.
+Cached demands for 1021 embedding graphs in 1.12 seconds.
+Latency prediction took 1.56 seconds for generation 10.
+Evaluating population using surrogate for generation 10.
+Finished generation 10 in 1.4731716429814696 seconds.
+Writing Pareto Fronts for generation 10.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 11 started. Performing genetic operations.
+Offspring generated for generation 11. Evaluating offspring.
+Decoding population for generation 11.
+Decoded 20 individuals in 16.77 seconds.
+Population decoded for generation 11. Starting evaluation.
+Caching surrogate evaluations for generation 11.
+Cached demands for 1031 embedding graphs in 0.82 seconds.
+Latency prediction took 1.66 seconds for generation 11.
+Evaluating population using surrogate for generation 11.
+Finished generation 11 in 1.4521387659478933 seconds.
+Writing Pareto Fronts for generation 11.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 11.
+Number of qualified individuals: 1
+Time taken: 230.98s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_16
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 17.44 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1023 embedding graphs in 0.83 seconds.
+Latency prediction took 1.58 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.4406249159947038 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Decoded 20 individuals in 17.80 seconds.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1031 embedding graphs in 1.09 seconds.
+Latency prediction took 1.57 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.445865751011297 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 3 started. Performing genetic operations.
+Offspring generated for generation 3. Evaluating offspring.
+Decoding population for generation 3.
+Decoded 20 individuals in 15.69 seconds.
+Population decoded for generation 3. Starting evaluation.
+Caching surrogate evaluations for generation 3.
+Cached demands for 1012 embedding graphs in 0.81 seconds.
+Latency prediction took 1.61 seconds for generation 3.
+Evaluating population using surrogate for generation 3.
+Finished generation 3 in 1.4954344080761075 seconds.
+Writing Pareto Fronts for generation 3.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 4 started. Performing genetic operations.
+Offspring generated for generation 4. Evaluating offspring.
+Decoding population for generation 4.
+Decoded 20 individuals in 17.23 seconds.
+Population decoded for generation 4. Starting evaluation.
+Caching surrogate evaluations for generation 4.
+Cached demands for 1006 embedding graphs in 0.83 seconds.
+Latency prediction took 1.61 seconds for generation 4.
+Evaluating population using surrogate for generation 4.
+Finished generation 4 in 1.4537769469898194 seconds.
+Writing Pareto Fronts for generation 4.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 5 started. Performing genetic operations.
+Offspring generated for generation 5. Evaluating offspring.
+Decoding population for generation 5.
+Decoded 20 individuals in 17.50 seconds.
+Population decoded for generation 5. Starting evaluation.
+Caching surrogate evaluations for generation 5.
+Cached demands for 1018 embedding graphs in 0.81 seconds.
+Latency prediction took 1.57 seconds for generation 5.
+Evaluating population using surrogate for generation 5.
+Finished generation 5 in 1.4442352659534663 seconds.
+Writing Pareto Fronts for generation 5.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 6 started. Performing genetic operations.
+Offspring generated for generation 6. Evaluating offspring.
+Decoding population for generation 6.
+Decoded 20 individuals in 19.97 seconds.
+Population decoded for generation 6. Starting evaluation.
+Caching surrogate evaluations for generation 6.
+Cached demands for 1017 embedding graphs in 0.81 seconds.
+Latency prediction took 1.67 seconds for generation 6.
+Evaluating population using surrogate for generation 6.
+Finished generation 6 in 1.4679020340554416 seconds.
+Writing Pareto Fronts for generation 6.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 7 started. Performing genetic operations.
+Offspring generated for generation 7. Evaluating offspring.
+Decoding population for generation 7.
+Decoded 20 individuals in 17.48 seconds.
+Population decoded for generation 7. Starting evaluation.
+Caching surrogate evaluations for generation 7.
+Cached demands for 1017 embedding graphs in 0.81 seconds.
+Latency prediction took 1.64 seconds for generation 7.
+Evaluating population using surrogate for generation 7.
+Finished generation 7 in 1.5102945531252772 seconds.
+Writing Pareto Fronts for generation 7.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 8 started. Performing genetic operations.
+Offspring generated for generation 8. Evaluating offspring.
+Decoding population for generation 8.
+Decoded 20 individuals in 19.71 seconds.
+Population decoded for generation 8. Starting evaluation.
+Caching surrogate evaluations for generation 8.
+Cached demands for 1007 embedding graphs in 0.83 seconds.
+Latency prediction took 1.65 seconds for generation 8.
+Evaluating population using surrogate for generation 8.
+Finished generation 8 in 1.4589738161303103 seconds.
+Writing Pareto Fronts for generation 8.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 9 started. Performing genetic operations.
+Offspring generated for generation 9. Evaluating offspring.
+Decoding population for generation 9.
+Decoded 20 individuals in 17.20 seconds.
+Population decoded for generation 9. Starting evaluation.
+Caching surrogate evaluations for generation 9.
+Cached demands for 1013 embedding graphs in 0.80 seconds.
+Latency prediction took 1.60 seconds for generation 9.
+Evaluating population using surrogate for generation 9.
+Finished generation 9 in 1.409893467091024 seconds.
+Writing Pareto Fronts for generation 9.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 10 started. Performing genetic operations.
+Offspring generated for generation 10. Evaluating offspring.
+Decoding population for generation 10.
+Decoded 20 individuals in 18.77 seconds.
+Population decoded for generation 10. Starting evaluation.
+Caching surrogate evaluations for generation 10.
+Cached demands for 1033 embedding graphs in 1.09 seconds.
+Latency prediction took 1.66 seconds for generation 10.
+Evaluating population using surrogate for generation 10.
+Finished generation 10 in 1.4728509329725057 seconds.
+Writing Pareto Fronts for generation 10.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 11 started. Performing genetic operations.
+Offspring generated for generation 11. Evaluating offspring.
+Decoding population for generation 11.
+Decoded 20 individuals in 18.39 seconds.
+Population decoded for generation 11. Starting evaluation.
+Caching surrogate evaluations for generation 11.
+Cached demands for 1022 embedding graphs in 0.82 seconds.
+Latency prediction took 1.57 seconds for generation 11.
+Evaluating population using surrogate for generation 11.
+Finished generation 11 in 1.5005373959429562 seconds.
+Writing Pareto Fronts for generation 11.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 12 started. Performing genetic operations.
+Offspring generated for generation 12. Evaluating offspring.
+Decoding population for generation 12.
+Decoded 20 individuals in 19.08 seconds.
+Population decoded for generation 12. Starting evaluation.
+Caching surrogate evaluations for generation 12.
+Cached demands for 1041 embedding graphs in 0.82 seconds.
+Latency prediction took 1.61 seconds for generation 12.
+Evaluating population using surrogate for generation 12.
+Finished generation 12 in 1.4281240908894688 seconds.
+Writing Pareto Fronts for generation 12.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 13 started. Performing genetic operations.
+Offspring generated for generation 13. Evaluating offspring.
+Decoding population for generation 13.
+Decoded 20 individuals in 17.11 seconds.
+Population decoded for generation 13. Starting evaluation.
+Caching surrogate evaluations for generation 13.
+Cached demands for 1020 embedding graphs in 0.81 seconds.
+Latency prediction took 1.64 seconds for generation 13.
+Evaluating population using surrogate for generation 13.
+Finished generation 13 in 1.5198298590257764 seconds.
+Writing Pareto Fronts for generation 13.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 14 started. Performing genetic operations.
+Offspring generated for generation 14. Evaluating offspring.
+Decoding population for generation 14.
+Decoded 20 individuals in 17.90 seconds.
+Population decoded for generation 14. Starting evaluation.
+Caching surrogate evaluations for generation 14.
+Cached demands for 1027 embedding graphs in 0.82 seconds.
+Latency prediction took 1.56 seconds for generation 14.
+Evaluating population using surrogate for generation 14.
+Finished generation 14 in 1.4374937848187983 seconds.
+Writing Pareto Fronts for generation 14.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 15 started. Performing genetic operations.
+Offspring generated for generation 15. Evaluating offspring.
+Decoding population for generation 15.
+Decoded 20 individuals in 17.82 seconds.
+Population decoded for generation 15. Starting evaluation.
+Caching surrogate evaluations for generation 15.
+Cached demands for 1004 embedding graphs in 0.81 seconds.
+Latency prediction took 2.47 seconds for generation 15.
+Evaluating population using surrogate for generation 15.
+Finished generation 15 in 1.479795812861994 seconds.
+Writing Pareto Fronts for generation 15.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 16 started. Performing genetic operations.
+Offspring generated for generation 16. Evaluating offspring.
+Decoding population for generation 16.
+Decoded 20 individuals in 17.46 seconds.
+Population decoded for generation 16. Starting evaluation.
+Caching surrogate evaluations for generation 16.
+Cached demands for 1018 embedding graphs in 0.82 seconds.
+Latency prediction took 1.59 seconds for generation 16.
+Evaluating population using surrogate for generation 16.
+Finished generation 16 in 1.475601356010884 seconds.
+Writing Pareto Fronts for generation 16.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 17 started. Performing genetic operations.
+Offspring generated for generation 17. Evaluating offspring.
+Decoding population for generation 17.
+Decoded 20 individuals in 17.14 seconds.
+Population decoded for generation 17. Starting evaluation.
+Caching surrogate evaluations for generation 17.
+Cached demands for 1025 embedding graphs in 0.82 seconds.
+Latency prediction took 1.60 seconds for generation 17.
+Evaluating population using surrogate for generation 17.
+Finished generation 17 in 1.4327632831409574 seconds.
+Writing Pareto Fronts for generation 17.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 18 started. Performing genetic operations.
+Offspring generated for generation 18. Evaluating offspring.
+Decoding population for generation 18.
+Decoded 20 individuals in 17.60 seconds.
+Population decoded for generation 18. Starting evaluation.
+Caching surrogate evaluations for generation 18.
+Cached demands for 1024 embedding graphs in 1.07 seconds.
+Latency prediction took 1.63 seconds for generation 18.
+Evaluating population using surrogate for generation 18.
+Finished generation 18 in 1.4647605598438531 seconds.
+Writing Pareto Fronts for generation 18.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 19 started. Performing genetic operations.
+Offspring generated for generation 19. Evaluating offspring.
+Decoding population for generation 19.
+Decoded 20 individuals in 17.83 seconds.
+Population decoded for generation 19. Starting evaluation.
+Caching surrogate evaluations for generation 19.
+Cached demands for 1029 embedding graphs in 0.81 seconds.
+Latency prediction took 1.58 seconds for generation 19.
+Evaluating population using surrogate for generation 19.
+Finished generation 19 in 1.4328548531048 seconds.
+Writing Pareto Fronts for generation 19.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 19.
+Number of qualified individuals: 1
+Time taken: 415.03s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_17
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 17.45 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1014 embedding graphs in 0.81 seconds.
+Latency prediction took 1.61 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.4857595681678504 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 2 started. Performing genetic operations.
+Offspring generated for generation 2. Evaluating offspring.
+Decoding population for generation 2.
+Decoded 20 individuals in 16.50 seconds.
+Population decoded for generation 2. Starting evaluation.
+Caching surrogate evaluations for generation 2.
+Cached demands for 1037 embedding graphs in 0.81 seconds.
+Latency prediction took 1.59 seconds for generation 2.
+Evaluating population using surrogate for generation 2.
+Finished generation 2 in 1.5260237460024655 seconds.
+Writing Pareto Fronts for generation 2.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 3 started. Performing genetic operations.
+Offspring generated for generation 3. Evaluating offspring.
+Decoding population for generation 3.
+Decoded 20 individuals in 18.14 seconds.
+Population decoded for generation 3. Starting evaluation.
+Caching surrogate evaluations for generation 3.
+Cached demands for 1041 embedding graphs in 0.83 seconds.
+Latency prediction took 1.66 seconds for generation 3.
+Evaluating population using surrogate for generation 3.
+Finished generation 3 in 1.482885962119326 seconds.
+Writing Pareto Fronts for generation 3.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 4 started. Performing genetic operations.
+Offspring generated for generation 4. Evaluating offspring.
+Decoding population for generation 4.
+Decoded 20 individuals in 18.31 seconds.
+Population decoded for generation 4. Starting evaluation.
+Caching surrogate evaluations for generation 4.
+Cached demands for 1006 embedding graphs in 0.79 seconds.
+Latency prediction took 1.62 seconds for generation 4.
+Evaluating population using surrogate for generation 4.
+Finished generation 4 in 1.4329145278315991 seconds.
+Writing Pareto Fronts for generation 4.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 5 started. Performing genetic operations.
+Offspring generated for generation 5. Evaluating offspring.
+Decoding population for generation 5.
+Decoded 20 individuals in 19.48 seconds.
+Population decoded for generation 5. Starting evaluation.
+Caching surrogate evaluations for generation 5.
+Cached demands for 997 embedding graphs in 0.83 seconds.
+Latency prediction took 1.62 seconds for generation 5.
+Evaluating population using surrogate for generation 5.
+Finished generation 5 in 1.5319683530833572 seconds.
+Writing Pareto Fronts for generation 5.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 6 started. Performing genetic operations.
+Offspring generated for generation 6. Evaluating offspring.
+Decoding population for generation 6.
+Decoded 20 individuals in 17.98 seconds.
+Population decoded for generation 6. Starting evaluation.
+Caching surrogate evaluations for generation 6.
+Cached demands for 1023 embedding graphs in 0.81 seconds.
+Latency prediction took 1.56 seconds for generation 6.
+Evaluating population using surrogate for generation 6.
+Finished generation 6 in 1.494993686908856 seconds.
+Writing Pareto Fronts for generation 6.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 7 started. Performing genetic operations.
+Offspring generated for generation 7. Evaluating offspring.
+Decoding population for generation 7.
+Decoded 20 individuals in 18.54 seconds.
+Population decoded for generation 7. Starting evaluation.
+Caching surrogate evaluations for generation 7.
+Cached demands for 1028 embedding graphs in 1.12 seconds.
+Latency prediction took 1.69 seconds for generation 7.
+Evaluating population using surrogate for generation 7.
+Finished generation 7 in 1.4733828490134329 seconds.
+Writing Pareto Fronts for generation 7.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 8 started. Performing genetic operations.
+Offspring generated for generation 8. Evaluating offspring.
+Decoding population for generation 8.
+Decoded 20 individuals in 19.72 seconds.
+Population decoded for generation 8. Starting evaluation.
+Caching surrogate evaluations for generation 8.
+Cached demands for 1017 embedding graphs in 0.80 seconds.
+Latency prediction took 1.63 seconds for generation 8.
+Evaluating population using surrogate for generation 8.
+Finished generation 8 in 1.4691934380680323 seconds.
+Writing Pareto Fronts for generation 8.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 9 started. Performing genetic operations.
+Offspring generated for generation 9. Evaluating offspring.
+Decoding population for generation 9.
+Decoded 20 individuals in 16.90 seconds.
+Population decoded for generation 9. Starting evaluation.
+Caching surrogate evaluations for generation 9.
+Cached demands for 1022 embedding graphs in 0.82 seconds.
+Latency prediction took 1.74 seconds for generation 9.
+Evaluating population using surrogate for generation 9.
+Finished generation 9 in 1.4592391951009631 seconds.
+Writing Pareto Fronts for generation 9.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 10 started. Performing genetic operations.
+Offspring generated for generation 10. Evaluating offspring.
+Decoding population for generation 10.
+Decoded 20 individuals in 18.09 seconds.
+Population decoded for generation 10. Starting evaluation.
+Caching surrogate evaluations for generation 10.
+Cached demands for 1020 embedding graphs in 0.81 seconds.
+Latency prediction took 1.65 seconds for generation 10.
+Evaluating population using surrogate for generation 10.
+Finished generation 10 in 1.4969134270213544 seconds.
+Writing Pareto Fronts for generation 10.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 11 started. Performing genetic operations.
+Offspring generated for generation 11. Evaluating offspring.
+Decoding population for generation 11.
+Decoded 20 individuals in 19.29 seconds.
+Population decoded for generation 11. Starting evaluation.
+Caching surrogate evaluations for generation 11.
+Cached demands for 991 embedding graphs in 0.83 seconds.
+Latency prediction took 1.68 seconds for generation 11.
+Evaluating population using surrogate for generation 11.
+Finished generation 11 in 1.484585224185139 seconds.
+Writing Pareto Fronts for generation 11.
+Qualified Individuals: 0/1
+Qualified individuals less than 1. Continuing evolution.
+Generation 12 started. Performing genetic operations.
+Offspring generated for generation 12. Evaluating offspring.
+Decoding population for generation 12.
+Decoded 20 individuals in 19.76 seconds.
+Population decoded for generation 12. Starting evaluation.
+Caching surrogate evaluations for generation 12.
+Cached demands for 1035 embedding graphs in 0.81 seconds.
+Latency prediction took 2.02 seconds for generation 12.
+Evaluating population using surrogate for generation 12.
+Finished generation 12 in 1.4744025422260165 seconds.
+Writing Pareto Fronts for generation 12.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 12.
+Number of qualified individuals: 1
+Time taken: 268.41s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_18
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 18.18 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1051 embedding graphs in 0.82 seconds.
+Latency prediction took 1.64 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.481550115160644 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 1.
+Number of qualified individuals: 1
+Time taken: 22.12s
+Generating predefined weights.
+Running the hybrid online-offline solver for experiment: 15_0.23_False_5_0.5_1_dc_19
+Initial population of 20 individuals created. Starting evolution.
+Decoding population for generation 1.
+Decoded 20 individuals in 19.06 seconds.
+Population decoded for generation 1. Starting evaluation.
+Caching surrogate evaluations for generation 1.
+Cached demands for 1020 embedding graphs in 0.82 seconds.
+Latency prediction took 1.79 seconds for generation 1.
+Evaluating population using surrogate for generation 1.
+Finished generation 1 in 1.5528030800633132 seconds.
+Writing Pareto Fronts for generation 1.
+Qualified Individuals: 1/1
+Finished the evolution of weights using surrogate at generation 1.
+Number of qualified individuals: 1
+Time taken: 23.22s

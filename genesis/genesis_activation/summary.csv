@@ -1,0 +1,5 @@
+activation,runs,mean_generations,median_generations,max_generations,min_generations,q1_generations,q3_generations,iqr_generations,ci_generations,generations_upper_lower,std_deviation_generations,converged_number,convergence_percent,mean_time_taken,std_deviation_time_taken,q1_time_taken,q3_time_taken,iqr_time_taken,ci_time_taken,time_taken_upper_lower
+linear,20,12.85,11.0,40,2,4.75,18.25,13.5,4.65,8.2-17.5,9.95,20,100.0,307.31,233.12,114.7,429.78,315.08,109.1,198.21-416.41
+relu,20,10.45,8.0,31,1,5.0,12.25,7.25,3.74,6.71-14.19,7.99,20,100.0,247.21,195.71,114.04,287.16,173.12,91.59,155.62-338.8
+sin,20,3.95,3.0,13,1,1.0,5.25,4.25,1.51,2.44-5.46,3.23,20,100.0,84.8,69.81,22.8,112.8,90.0,32.67,52.13-117.47
+tanh,20,100,100.0,100,100,100.0,100.0,0.0,0.0,100.0-100.0,0.0,0,0.0,2068.96,79.79,2003.69,2093.91,90.22,37.34,2031.62-2106.3

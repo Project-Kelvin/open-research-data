@@ -1,19 +1,51 @@
-experiment,evolution,type,time
-Baseline(Hybrid),Hybrid,Offline,786.61
-Baseline(Hybrid),Hybrid,Online,672
-Baseline(Online),Online,Online,63788.07564635598
-Bandwidth(Hybrid),Hybrid,Offline,335.3
-Bandwidth(Hybrid),Hybrid,Online,672
-Bandwidth(Online),Online,Online,62577.926120975986
-SFCRs(Hybrid),Hybrid,Offline,6848.45
-SFCRs(Hybrid),Hybrid,Online,672
-SFCRs(Online),Online,Online,66481.62726873416
-CPU(Hybrid),Hybrid,Offline,451.23
-CPU(Hybrid),Hybrid,Online,672
-CPU(Online),Online,Online,64246.144316849066
-Traffic Scale(Hybrid),Hybrid,Offline,416.94
-Traffic Scale(Hybrid),Hybrid,Online,672
-Traffic Scale(Online),Online,Online,63756.44584052893
-Traffic Pattern(Hybrid),Hybrid,Offline,379.39
-Traffic Pattern(Hybrid),Hybrid,Online,672
-Traffic Pattern(Online),Online,Online,65943.3625021649
+experiment,algorithm,evolution,type,time
+Basic,BEGA 2000 Hybrid,Hybrid,Offline,786.61
+Basic,BEGA 2000 Hybrid,Hybrid,Online,672
+Basic,BEGA 100 Hybrid,Hybrid,Offline,1047.23
+Basic,BEGA 100 Hybrid,Hybrid,Online,672
+Basic,BEGA Online,Online,Online,92724.50479564798
+Basic,GAHA Offline,Offline,Offline,37115.11
+Basic,GDA,Offline,Offline,19.25
+Basic,GENESIS Hybrid,Hybrid,Offline,144.81
+Basic,GENESIS Hybrid,Hybrid,Online,672
+Basic,RL,Offline,Offline,21705.267804748
+Bandwidth,BEGA 2000 Hybrid,Hybrid,Offline,335.3
+Bandwidth,BEGA 2000 Hybrid,Hybrid,Online,672
+Bandwidth,BEGA 100 Hybrid,Hybrid,Offline,411.99
+Bandwidth,BEGA 100 Hybrid,Hybrid,Online,672
+Bandwidth,BEGA Online,Online,Online,92805.01245234802
+Bandwidth,GAHA Offline,Offline,Offline,39432.14
+Bandwidth,GDA,Offline,Offline,19.11
+Bandwidth,GENESIS Hybrid,Hybrid,Offline,131.19
+Bandwidth,GENESIS Hybrid,Hybrid,Online,672
+Bandwidth,RL,Offline,Offline,21301.846397843
+CPU,BEGA 2000 Hybrid,Hybrid,Offline,451.23
+CPU,BEGA 2000 Hybrid,Hybrid,Online,672
+CPU,BEGA 100 Hybrid,Hybrid,Offline,1024.23
+CPU,BEGA 100 Hybrid,Hybrid,Online,672
+CPU,BEGA Online,Online,Online,90052.78602123098
+CPU,GAHA Offline,Offline,Offline,37991.65
+CPU,GDA,Offline,Offline,24.03
+CPU,GENESIS Hybrid,Hybrid,Offline,154.66
+CPU,GENESIS Hybrid,Hybrid,Online,672
+CPU,RL,Offline,Offline,18272.083251804
+Traffic Scale,BEGA 2000 Hybrid,Hybrid,Offline,416.94
+Traffic Scale,BEGA 2000 Hybrid,Hybrid,Online,672
+Traffic Scale,BEGA 100 Hybrid,Hybrid,Offline,1251.73
+Traffic Scale,BEGA 100 Hybrid,Hybrid,Online,672
+Traffic Scale,BEGA Online,Online,Online,87127.11205432995
+Traffic Scale,GAHA Offline,Offline,Offline,42898.23
+Traffic Scale,GDA,Offline,Offline,18.67
+Traffic Scale,GENESIS Hybrid,Hybrid,Offline,133.73
+Traffic Scale,GENESIS Hybrid,Hybrid,Online,672
+Traffic Scale,RL,Offline,Offline,21988.998153688
+Traffic Pattern,BEGA 2000 Hybrid,Hybrid,Offline,379.39
+Traffic Pattern,BEGA 2000 Hybrid,Hybrid,Online,672
+Traffic Pattern,BEGA 100 Hybrid,Hybrid,Offline,1204.35
+Traffic Pattern,BEGA 100 Hybrid,Hybrid,Online,672
+Traffic Pattern,BEGA Online,Online,Online,86991.121219964
+Traffic Pattern,GAHA Offline,Offline,Offline,40040.26
+Traffic Pattern,GDA,Offline,Offline,19.03
+Traffic Pattern,GENESIS Hybrid,Hybrid,Offline,122.81
+Traffic Pattern,GENESIS Hybrid,Hybrid,Online,672
+Traffic Pattern,RL,Offline,Offline,21156.496554229

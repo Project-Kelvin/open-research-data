@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "phenotype"
+version = "0.1.0"
+description = "Runs phenotype analysis"
+authors = ["Theviyanthan Krishnamohan"]
+package-mode = false
+packages = [{ include = "analysis" }]
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+scipy = "^1.18.0"
+polars = "^1.43.2"
+seaborn = "^0.13.2"
+pyarrow = "^25.0.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+analyse = "analysis.analysis:run"

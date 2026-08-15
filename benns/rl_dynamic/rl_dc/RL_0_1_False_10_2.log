@@ -1,0 +1,20 @@
+[2026-07-09T17:59:38.825169] experiment=RL_0.1_False_10_2 segment=0 acceptance_ratio=1.0 calculated_delay=1565.6761412353392 measured_latency=127.64683380074906 total_execution_time=1876.0507920310192 episodes_used=200 converged=true termination_reason=converged
+accepted_sfcrs=4 failed_sfcrs=0 hosts_available=14
+[2026-07-09T18:30:29.568339] experiment=RL_0.1_False_10_2 segment=1 acceptance_ratio=1.0 calculated_delay=1555.5580352728362 measured_latency=106.7268653 total_execution_time=1850.7299232019868 episodes_used=200 converged=true termination_reason=converged
+accepted_sfcrs=4 failed_sfcrs=0 hosts_available=14
+[2026-07-09T19:01:15.204217] experiment=RL_0.1_False_10_2 segment=2 acceptance_ratio=1.0 calculated_delay=1565.662747314721 measured_latency=127.49514232137517 total_execution_time=1845.6244398090057 episodes_used=200 converged=true termination_reason=converged
+accepted_sfcrs=4 failed_sfcrs=0 hosts_available=14
+[2026-07-09T19:31:47.253909] experiment=RL_0.1_False_10_2 segment=3 acceptance_ratio=1.0 calculated_delay=1565.6496082947924 measured_latency=126.98415874906507 total_execution_time=1832.0364934719983 episodes_used=200 converged=true termination_reason=converged
+accepted_sfcrs=4 failed_sfcrs=0 hosts_available=14
+[2026-07-09T20:02:40.608291] experiment=RL_0.1_False_10_2 segment=4 acceptance_ratio=1.0 calculated_delay=1565.6496082947922 measured_latency=127.27697533794912 total_execution_time=1853.340944800002 episodes_used=200 converged=true termination_reason=converged
+accepted_sfcrs=4 failed_sfcrs=0 hosts_available=14
+[2026-07-09T20:32:57.718337] experiment=RL_0.1_False_10_2 segment=5 acceptance_ratio=1.0 calculated_delay=1555.5400391639575 measured_latency=106.95497918600302 total_execution_time=1817.0973084750003 episodes_used=200 converged=true termination_reason=converged
+accepted_sfcrs=4 failed_sfcrs=0 hosts_available=14
+[2026-07-09T21:07:53.157287] experiment=RL_0.1_False_10_2 segment=6 acceptance_ratio=1.0 calculated_delay=1555.5459813517873 measured_latency=106.91015217215568 total_execution_time=2095.427691662975 episodes_used=200 converged=true termination_reason=converged
+accepted_sfcrs=4 failed_sfcrs=0 hosts_available=13
+[2026-07-09T21:38:14.679667] experiment=RL_0.1_False_10_2 segment=7 acceptance_ratio=1.0 calculated_delay=1570.701421766295 measured_latency=137.0518107660928 total_execution_time=1821.5086985130329 episodes_used=200 converged=true termination_reason=converged
+accepted_sfcrs=4 failed_sfcrs=0 hosts_available=12
+[2026-07-09T22:09:12.485008] experiment=RL_0.1_False_10_2 segment=8 acceptance_ratio=1.0 calculated_delay=1585.8721713984908 measured_latency=167.43272339171023 total_execution_time=1857.7940553660155 episodes_used=200 converged=false termination_reason=max_episodes_reached
+accepted_sfcrs=4 failed_sfcrs=0 hosts_available=11
+[2026-07-09T22:39:59.143426] experiment=RL_0.1_False_10_2 segment=9 acceptance_ratio=1.0 calculated_delay=1845.924527419433 measured_latency=187.83011791442453 total_execution_time=1846.6482812959584 episodes_used=200 converged=false termination_reason=max_episodes_reached
+accepted_sfcrs=4 failed_sfcrs=0 hosts_available=10
