@@ -1,0 +1,115 @@
+========================================================================
+1. CONVERGENCE RATE — Fisher's exact test + effect sizes
+========================================================================
+
+-- dc --
+           converged   n
+algorithm               
+gaha               0  20
+hybrid            19  20
+online             2  20
+  hybrid (95%) vs gaha (0%): Fisher p=0.000000 | risk diff=+0.95 | RR=inf | OR(Haldane)=533.00
+  hybrid (95%) vs online (10%): Fisher p=0.000000 | risk diff=+0.85 | RR=9.50 | OR(Haldane)=171.00
+
+-- milan --
+           converged   n
+algorithm               
+gaha               0  20
+hybrid            19  20
+online             0  20
+  hybrid (95%) vs gaha (0%): Fisher p=0.000000 | risk diff=+0.95 | RR=inf | OR(Haldane)=533.00
+  hybrid (95%) vs online (0%): Fisher p=0.000000 | risk diff=+0.95 | RR=inf | OR(Haldane)=533.00
+
+-- 25n50e --
+           converged   n
+algorithm               
+gaha               0  20
+hybrid            20  20
+online             5  20
+  hybrid (100%) vs gaha (0%): Fisher p=0.000000 | risk diff=+1.00 | RR=inf | OR(Haldane)=1681.00
+  hybrid (100%) vs online (25%): Fisher p=0.000001 | risk diff=+0.75 | RR=4.00 | OR(Haldane)=115.55
+
+========================================================================
+2. LOG-RANK TEST — generations-to-converge, censored at budget
+========================================================================
+
+-- dc --
+  hybrid vs gaha: chi2=40.689, p=0.000000
+  hybrid vs online: chi2=2.052, p=0.151978
+
+-- milan --
+  hybrid vs gaha: chi2=40.689, p=0.000000
+  hybrid vs online: chi2=1.000, p=0.317311
+
+-- 25n50e --
+  hybrid vs gaha: chi2=46.840, p=0.000000
+  hybrid vs online: chi2=0.132, p=0.716158
+
+========================================================================
+3. KAPLAN-MEIER median generations-to-converge
+========================================================================
+
+-- dc --
+  hybrid: KM median = 15.0 (converged 19/20)
+  gaha: KM median = inf (converged 0/20)
+  online: KM median = inf (converged 2/20)
+
+-- milan --
+  hybrid: KM median = 39.0 (converged 19/20)
+  gaha: KM median = inf (converged 0/20)
+  online: KM median = inf (converged 0/20)
+
+-- 25n50e --
+  hybrid: KM median = 8.0 (converged 20/20)
+  gaha: KM median = inf (converged 0/20)
+  online: KM median = inf (converged 5/20)
+
+========================================================================
+4. HAZARD RATIO — Cox proportional hazards model
+========================================================================
+
+-- dc --
+  hybrid vs gaha: skipped — convergence rate perfectly/near-perfectly separates the groups (hybrid 19/20, gaha 0/20). Report the risk difference from section 1 instead.
+  hybrid vs online: HR=26566185.894 (95% CI 0.000-inf), p=0.9962 [HR<1 means online converges more slowly than hybrid]
+
+-- milan --
+  hybrid vs gaha: skipped — convergence rate perfectly/near-perfectly separates the groups (hybrid 19/20, gaha 0/20). Report the risk difference from section 1 instead.
+  hybrid vs online: skipped — convergence rate perfectly/near-perfectly separates the groups (hybrid 19/20, online 0/20). Report the risk difference from section 1 instead.
+
+-- 25n50e --
+  hybrid vs gaha: skipped — convergence rate perfectly/near-perfectly separates the groups (hybrid 20/20, gaha 0/20). Report the risk difference from section 1 instead.
+  hybrid vs online: skipped — convergence rate perfectly/near-perfectly separates the groups (hybrid 20/20, online 5/20). Report the risk difference from section 1 instead.
+
+========================================================================
+5. VARGHA-DELANEY A12 — generations among CONVERGED runs (secondary)
+========================================================================
+
+-- dc --
+  hybrid vs gaha: gaha has 0 converged runs — A12 undefined
+  hybrid vs online: A12=0.000 (large effect; A12<0.5 favors hybrid)
+
+-- milan --
+  hybrid vs gaha: gaha has 0 converged runs — A12 undefined
+  hybrid vs online: online has 0 converged runs — A12 undefined
+
+-- 25n50e --
+  hybrid vs gaha: gaha has 0 converged runs — A12 undefined
+  hybrid vs online: A12=0.120 (large effect; A12<0.5 favors hybrid)
+
+KM plot saved to km_plot.png
+
+========================================================================
+6. MANN-WHITNEY U TEST — hypervolume (two-sided), per topology
+========================================================================
+
+-- dc --
+  hybrid vs gaha: U=400.0, p=0.000000 | A12=0.000 (large effect; A12<0.5 favors hybrid on hv)
+  hybrid vs online: U=393.5, p=0.000000 | A12=0.016 (large effect; A12<0.5 favors hybrid on hv)
+
+-- milan --
+  hybrid vs gaha: U=400.0, p=0.000000 | A12=0.000 (large effect; A12<0.5 favors hybrid on hv)
+  hybrid vs online: U=400.0, p=0.000000 | A12=0.000 (large effect; A12<0.5 favors hybrid on hv)
+
+-- 25n50e --
+  hybrid vs gaha: U=400.0, p=0.000000 | A12=0.000 (large effect; A12<0.5 favors hybrid on hv)
+  hybrid vs online: U=400.0, p=0.000000 | A12=0.000 (large effect; A12<0.5 favors hybrid on hv)

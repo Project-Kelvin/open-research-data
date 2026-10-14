@@ -1,0 +1,6 @@
+method, generation, latency, ar
+surrogate, 1, 56.0, 0.8
+surrogate, 1, 53.0, 0.75
+surrogate, 2, 60.0, 0.85
+surrogate, 2, 56.0, 0.8
+surrogate, 2, 53.0, 0.75

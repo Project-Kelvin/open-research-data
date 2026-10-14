@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "benns-evaluation"
+version = "0.1.0"
+description = "Summary statistics for the BENNS evaluation"
+authors = []
+packages = [{ include = "stats.py" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "*"
+numpy = "*"
+scipy = ">=1.11"
+
+[tool.poetry.scripts]
+stats = "stats:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

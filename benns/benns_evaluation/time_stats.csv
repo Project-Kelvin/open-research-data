@@ -1,0 +1,10 @@
+topology,metric,n,mean,median,iqr,ci_bca_low,ci_bca_high,std
+abilene,benns_time,199,0.01,0.01,0.0,0.01,0.01,0.0
+abilene,gaha_time,199,0.72,0.71,0.25,0.69,0.74,0.18
+abilene,online_time,199,157.14,145.07,46.89,151.61,164.49,46.13
+dfn-bwin,benns_time,200,0.01,0.01,0.0,0.01,0.01,0.0
+dfn-bwin,gaha_time,200,0.73,0.66,0.26,0.7,0.83,0.38
+dfn-bwin,online_time,200,139.81,131.32,35.76,135.09,145.75,38.46
+nobel-us,benns_time,199,0.01,0.01,0.0,0.01,0.01,0.0
+nobel-us,gaha_time,199,0.72,0.7,0.31,0.69,0.74,0.19
+nobel-us,online_time,199,143.82,136.58,37.2,139.51,148.91,33.73

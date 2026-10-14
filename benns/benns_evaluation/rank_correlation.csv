@@ -1,0 +1,7 @@
+topology,comparison,n,spearman_rho,spearman_p,kendall_tau,kendall_p
+abilene,gaha_vs_online,199,0.33,2.79e-06,0.22,3.17e-06
+abilene,benns_vs_online,199,0.74,2.26e-36,0.53,6.58e-27
+dfn-bwin,gaha_vs_online,200,0.47,2.64e-12,0.33,4.34e-12
+dfn-bwin,benns_vs_online,200,0.76,2.87e-38,0.55,3.93e-29
+nobel-us,gaha_vs_online,199,0.3,1.42e-05,0.2,3.01e-05
+nobel-us,benns_vs_online,199,0.73,2.53e-34,0.52,1.24e-25

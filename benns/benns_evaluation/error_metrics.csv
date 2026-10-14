@@ -1,0 +1,7 @@
+topology,method,n,mae,mape_percent,rmse,r2
+abilene,gaha,199,572.0,672.44,627.69,-1.96
+abilene,benns,199,874.56,227.63,1549.17,-17.05
+dfn-bwin,gaha,200,432.87,508.77,494.41,-0.53
+dfn-bwin,benns,200,606.16,126.05,1145.8,-7.21
+nobel-us,gaha,199,495.49,674.01,562.31,-2.63
+nobel-us,benns,199,455.96,92.92,950.41,-9.36

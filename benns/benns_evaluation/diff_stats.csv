@@ -1,0 +1,7 @@
+topology,comparison,n,mean,median,iqr,ci_bca_low,ci_bca_high,std
+abilene,gaha_vs_online,199,572.0,594.14,367.14,534.42,607.29,259.13
+abilene,benns_vs_online,199,874.56,51.0,1338.5,707.81,1068.02,1281.92
+dfn-bwin,gaha_vs_online,200,432.87,460.16,402.16,399.61,465.07,239.49
+dfn-bwin,benns_vs_online,200,606.16,69.5,651.75,485.3,754.29,974.77
+nobel-us,gaha_vs_online,199,495.49,522.88,404.15,458.07,531.32,266.53
+nobel-us,benns_vs_online,199,455.96,19.0,465.0,351.72,587.86,836.0
